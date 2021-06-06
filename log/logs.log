@@ -1,0 +1,55 @@
+2021-06-06 13:05:52   INFO [RegistrationTests:32  ] : Open URL - http://automationpractice.com
+2021-06-06 13:05:54   INFO [RegistrationTests:34  ] : Click on 'Sign in'
+2021-06-06 13:05:54   INFO [RegistrationTests:36  ] : Enter email
+2021-06-06 13:05:54   INFO [RegistrationTests:38  ] : Click on 'Submit'
+2021-06-06 13:05:56   INFO [RegistrationTests:41  ] : Choose title 'Mr'
+2021-06-06 13:05:56   INFO [RegistrationTests:43  ] : Enter First Name
+2021-06-06 13:05:56   INFO [RegistrationTests:45  ] : Enter Last Name
+2021-06-06 13:05:56   INFO [RegistrationTests:47  ] : Input email
+2021-06-06 13:05:56   INFO [RegistrationTests:49  ] : Input password
+2021-06-06 13:05:56   INFO [RegistrationTests:51  ] : Choose 'Sign up for our newsletter!'
+2021-06-06 13:05:56   INFO [RegistrationTests:53  ] : Choose 'Receive special offers from our partners!'
+2021-06-06 13:29:00   INFO [RegistrationTests:33  ] : Open URL - http://automationpractice.com
+2021-06-06 13:29:02   INFO [RegistrationTests:35  ] : Click on 'Sign in'
+2021-06-06 13:29:02   INFO [RegistrationTests:37  ] : Enter email
+2021-06-06 13:29:03   INFO [RegistrationTests:39  ] : Click on 'Submit'
+2021-06-06 13:29:04   INFO [RegistrationTests:42  ] : Choose title 'Mr'
+2021-06-06 13:29:04   INFO [RegistrationTests:44  ] : Enter First Name
+2021-06-06 13:29:04   INFO [RegistrationTests:46  ] : Enter Last Name
+2021-06-06 13:29:04   INFO [RegistrationTests:51  ] : Input email
+2021-06-06 13:29:04   INFO [RegistrationTests:54  ] : Input password
+2021-06-06 13:29:04   INFO [RegistrationTests:56  ] : Choose 'Sign up for our newsletter!'
+2021-06-06 13:29:05   INFO [RegistrationTests:58  ] : Choose 'Receive special offers from our partners!'
+2021-06-06 13:45:57   INFO [RegistrationTests:33  ] : Open URL - http://automationpractice.com
+2021-06-06 13:45:59   INFO [RegistrationTests:35  ] : Click on 'Sign in'
+2021-06-06 13:45:59   INFO [RegistrationTests:37  ] : Enter email
+2021-06-06 13:45:59   INFO [RegistrationTests:39  ] : Click on 'Submit'
+2021-06-06 13:46:03   INFO [RegistrationTests:42  ] : Choose title 'Mr'
+2021-06-06 13:46:03   INFO [RegistrationTests:44  ] : Enter First Name
+2021-06-06 13:46:03   INFO [RegistrationTests:46  ] : Enter Last Name
+2021-06-06 13:46:03   INFO [RegistrationTests:51  ] : Input email
+2021-06-06 13:46:03   INFO [RegistrationTests:54  ] : Input password
+2021-06-06 13:46:03   INFO [RegistrationTests:56  ] : Choose 'Sign up for our newsletter!'
+2021-06-06 13:46:03   INFO [RegistrationTests:58  ] : Choose 'Receive special offers from our partners!'
+2021-06-06 13:53:48   INFO [RegistrationTests:33  ] : Open URL - http://automationpractice.com
+2021-06-06 13:53:50   INFO [RegistrationTests:35  ] : Click on 'Sign in'
+2021-06-06 13:53:50   INFO [RegistrationTests:37  ] : Enter email
+2021-06-06 13:53:51   INFO [RegistrationTests:39  ] : Click on 'Submit'
+2021-06-06 13:53:52   INFO [RegistrationTests:42  ] : Choose title 'Mr'
+2021-06-06 13:53:52   INFO [RegistrationTests:44  ] : Enter First Name
+2021-06-06 13:53:52   INFO [RegistrationTests:46  ] : Enter Last Name
+2021-06-06 13:53:52   INFO [RegistrationTests:55  ] : Input email
+2021-06-06 13:53:52   INFO [RegistrationTests:58  ] : Input password
+2021-06-06 13:53:53   INFO [RegistrationTests:60  ] : Choose 'Sign up for our newsletter!'
+2021-06-06 13:53:53   INFO [RegistrationTests:62  ] : Choose 'Receive special offers from our partners!'
+2021-06-06 13:53:53   INFO [RegistrationTests:67  ] : Enter First Name
+2021-06-06 13:53:53   INFO [RegistrationTests:70  ] : Enter Last Name
+2021-06-06 13:53:53   INFO [RegistrationTests:72  ] : Enter Address
+2021-06-06 13:53:53   INFO [RegistrationTests:74  ] : Enter City
+2021-06-06 13:53:53   INFO [RegistrationTests:79  ] : Select State
+2021-06-06 13:53:53   INFO [RegistrationTests:81  ] : Input Post code
+2021-06-06 13:53:53   INFO [RegistrationTests:84  ] : Select Country
+2021-06-06 13:53:53   INFO [RegistrationTests:86  ] : Enter phone number
+2021-06-06 13:53:53   INFO [RegistrationTests:89  ] : Enter alias
+2021-06-06 13:53:56   INFO [RegistrationTests:91  ] : Click on Submit
+2021-06-06 13:53:56   INFO [RegistrationTests:93  ] : Verify if account created
