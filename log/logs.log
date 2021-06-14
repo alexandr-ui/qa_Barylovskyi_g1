@@ -53,3 +53,65 @@
 2021-06-06 13:53:53   INFO [RegistrationTests:89  ] : Enter alias
 2021-06-06 13:53:56   INFO [RegistrationTests:91  ] : Click on Submit
 2021-06-06 13:53:56   INFO [RegistrationTests:93  ] : Verify if account created
+2021-14-06 10:06:41   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 10:06:41   INFO [GoogleTest:50  ] : Enter prog.kiev.ua in a search field
+2021-14-06 10:06:45   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 10:06:45   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 10:06:45   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 10:33:16  ERROR [GoogleTest:30  ] : Can't open browser
+2021-14-06 10:33:40   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 10:33:40   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 10:33:41   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 10:33:51   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 10:33:51   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 10:47:05   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 10:47:05   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 10:47:07   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 10:47:17   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 10:47:18   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 10:48:27   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 10:48:27   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 10:48:30   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 10:48:30   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 10:48:30   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 10:49:42   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 10:49:42   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 10:49:44   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 10:49:44   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 10:49:44   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 10:52:04   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 10:52:04   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 10:52:07   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 10:52:07   INFO [GoogleTest:56  ] : Header in first search link equals 'Assert (JUnit API)'
+2021-14-06 10:52:07   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 10:52:07   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 10:52:27   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 10:52:27   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 10:52:30   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 10:52:30   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 10:52:30   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 10:52:55   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 10:52:55   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 10:52:58   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 10:52:58   INFO [GoogleTest:56  ] : Header in first search link equals 'Assert (JUnit API)'
+2021-14-06 10:52:58   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 10:52:58   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 12:18:31   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 12:18:32   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 12:18:34   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 12:18:34   INFO [GoogleTest:56  ] : Header in first search link equals 'Assert (JUnit API)'
+2021-14-06 12:18:34   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 12:18:34   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 12:19:26   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 12:19:26   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 12:19:29   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 12:19:29   INFO [GoogleTest:56  ] : Header in first search link is: 'Assert (JUnit API)'
+2021-14-06 12:19:29   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 12:19:29   INFO [GoogleTest:42  ] : Close browser
+2021-14-06 12:21:19   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-14-06 12:21:19   INFO [GoogleTest:50  ] : Enter 'assert junit 4' in a search field
+2021-14-06 12:21:22   INFO [GoogleTest:52  ] : Click on 'Google Search' button
+2021-14-06 12:21:22   INFO [GoogleTest:56  ] : Header in the first search result: 'Assert (JUnit API)'
+2021-14-06 12:21:22   INFO [GoogleTest:60  ] : Link in the first search result: https://junit.org/junit4/javadoc/4.8/org/junit/Assert.html
+2021-14-06 12:21:22   INFO [GoogleTest:40  ] : Clear cookies
+2021-14-06 12:21:22   INFO [GoogleTest:42  ] : Close browser
