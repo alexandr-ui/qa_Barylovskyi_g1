@@ -3,6 +3,7 @@ package RegistrationTests;
 
 
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -28,7 +29,14 @@ public class RegistrationTests {
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         String email = "1unamewepp-6426@yopmail.com";
 
-        webDriver.get("http://automationpractice.com");
+        try{
+            webDriver.get("http://automationpractice.com");
+            logger.info("Open URL - http://automationpractice.com");
+        } catch(Exception e){
+            logger.error("Can't open browser");
+            Assert.fail("Can't open browser");
+        }
+
 
         logger.info("Open URL - http://automationpractice.com");
         webDriver.findElement(By.xpath("//a[@class='login']")).click();
