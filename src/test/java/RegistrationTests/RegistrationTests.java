@@ -3,12 +3,16 @@ package RegistrationTests;
 
 
 import org.apache.log4j.Logger;
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.openqa.selenium.support.ui.Select;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pages.MainPage;
+import pages.RegistrationPage;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -17,17 +21,23 @@ public class RegistrationTests {
 
     public WebDriver webDriver;
     private Logger logger = Logger.getLogger(getClass());
+    String email = "1unamewepp-6426@yopmail.com";
+
+    public RegistrationPage registrationPage;
+    public MainPage mainPage;
 
 
-    @Test
-    public void testRegistrationValid(){
+
+    @Before
+    public void setUp(){
         //Setup browser
         File chromeFF = new File("./drivers/chromedriver");
         System.setProperty("webdriver.chrome.driver", chromeFF.getAbsolutePath());
         webDriver = new ChromeDriver();
+        registrationPage = new RegistrationPage(webDriver);
+        mainPage = new MainPage(webDriver);
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        String email = "1unamewepp-6426@yopmail.com";
 
         try{
             webDriver.get("http://automationpractice.com");
@@ -37,8 +47,29 @@ public class RegistrationTests {
             Assert.fail("Can't open browser");
         }
 
+    }
 
-        logger.info("Open URL - http://automationpractice.com");
+    @After
+    public void tearDown(){
+        //Close chromedriver
+        webDriver.manage().deleteAllCookies();
+        logger.info("Clear cookies");
+        webDriver.quit();
+        logger.info("Close browser");
+    }
+
+    @Test
+    public void testRegistrationValidByPageObj(){
+        registrationPage.openRegistrationPage();
+        registrationPage.clickSignIn();
+        registrationPage.InputEmailCreate("2unamewepp-6426@yopmail.com");
+
+    }
+
+
+    @Test
+    public void testRegistrationValid(){
+
         webDriver.findElement(By.xpath("//a[@class='login']")).click();
         logger.info("Click on 'Sign in'");
         webDriver.findElement(By.id("email_create")).sendKeys(email);

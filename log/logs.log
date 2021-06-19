@@ -115,3 +115,9 @@
 2021-14-06 12:21:22   INFO [GoogleTest:60  ] : Link in the first search result: https://junit.org/junit4/javadoc/4.8/org/junit/Assert.html
 2021-14-06 12:21:22   INFO [GoogleTest:40  ] : Clear cookies
 2021-14-06 12:21:22   INFO [GoogleTest:42  ] : Close browser
+2021-19-06 20:57:23   INFO [RegistrationTests:44  ] : Open URL - http://automationpractice.com
+2021-19-06 20:57:24   INFO [RegistrationPage:25  ] : Page was openedhttp://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-19-06 20:57:27   INFO [RegistrationPage:88  ] : Click to Sign in
+2021-19-06 20:57:28   INFO [RegistrationPage:103 ] : Input email - 2unamewepp-6426@yopmail.com
+2021-19-06 20:57:28   INFO [RegistrationTests:56  ] : Clear cookies
+2021-19-06 20:57:28   INFO [RegistrationTests:58  ] : Close browser
