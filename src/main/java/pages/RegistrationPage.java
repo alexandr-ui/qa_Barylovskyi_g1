@@ -1,9 +1,11 @@
 package pages;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationPage extends MainPage{
 
@@ -17,58 +19,58 @@ public class RegistrationPage extends MainPage{
     private WebElement submitButtonCreate;
 
     @FindBy(xpath = "//form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]")
-    private WebElement formAccount;
+    public WebElement formAccount;
 
     @FindBy(id = "customer_firstname")
-    private WebElement customerFirstNameInput;
+    public WebElement customerFirstNameInput;
 
     @FindBy(id = "customer_lastname")
-    private WebElement customerLastNameInput;
+    public WebElement customerLastNameInput;
 
     @FindBy(id = "email")
-    private WebElement emailInput;
+    public WebElement emailInput;
 
     @FindBy(id = "passwd")
-    private WebElement passwordInput;
+    public WebElement passwordInput;
 
     @FindBy(id = "newsletter")
-    private WebElement checkboxNewsLetter;
+    public WebElement checkboxNewsLetter;
 
     @FindBy(id = "optin")
-    private WebElement checkboxNewsOptin;
+    public WebElement checkboxNewsOptin;
 
     @FindBy(xpath = "//input[@id='firstname']")
-    private WebElement firstNameInput;
+    public WebElement firstNameInput;
 
     @FindBy(xpath = "//input[@id='lastname']")
-    private WebElement lastNameInput;
+    public WebElement lastNameInput;
 
     @FindBy(xpath = "//input[@id='address1']")
-    private WebElement streetInput;
+    public WebElement streetInput;
 
     @FindBy(xpath = "//input[@id='city']")
-    private WebElement cityInput;
+    public WebElement cityInput;
 
     @FindBy(id = "id_state")
-    private WebElement selectStateByValue;
+    public WebElement selectStateByValue;
 
     @FindBy(id = "postcode")
-    private WebElement postCodeInput;
+    public WebElement postCodeInput;
 
     @FindBy(id = "id_country")
-    private WebElement selectCountryByValue;
+    public WebElement selectCountryByValue;
 
     @FindBy(id = "phone_mobile")
-    private WebElement phoneNumberInput;
+    public WebElement phoneNumberInput;
 
     @FindBy(id = "alias")
-    private WebElement aliasInput;
+    public WebElement aliasInput;
 
     @FindBy(id = "submitAccount")
-    private WebElement submitAccount;
+    public WebElement submitAccount;
 
     @FindBy(id = "//div[@id='center_column']/h1")
-    private WebElement titleRegisteredAccount;
+    public WebElement titleRegisteredAccount;
 
     public RegistrationPage(WebDriver webDriver) {
         super(webDriver);
@@ -105,6 +107,39 @@ public class RegistrationPage extends MainPage{
         } catch(Exception e){
             logger.error("Can't input email " + email);
             Assert.fail("Can't input email " + email);
+        }
+    }
+
+    /**
+     * Method submit button
+     * */
+    public void submitButtonCreate(){
+        try{
+            submitButtonCreate.click();
+            logger.info("Click on Submit button");
+        } catch(Exception e){
+            logger.error("Can't click on submit");
+            Assert.fail("Can't click on submit");
+        }
+    }
+
+    public void selectState(){
+        try{
+            Select state = new Select(selectStateByValue);
+            state.selectByValue("13");
+            logger.info("State '13' is selected");
+        } catch(Exception e){
+            logger.error("State can't be selected");
+        }
+    }
+
+    public void selectCountry(){
+        try{
+            Select country = new Select(selectCountryByValue);
+            country.selectByValue("21");
+            logger.info("Country 21 is selected");
+        } catch(Exception e){
+            logger.error("Country can't be selected");
         }
     }
 
