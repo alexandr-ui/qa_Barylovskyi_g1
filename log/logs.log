@@ -121,3 +121,146 @@
 2021-19-06 20:57:28   INFO [RegistrationPage:103 ] : Input email - 2unamewepp-6426@yopmail.com
 2021-19-06 20:57:28   INFO [RegistrationTests:56  ] : Clear cookies
 2021-19-06 20:57:28   INFO [RegistrationTests:58  ] : Close browser
+2021-21-07 19:54:52   INFO [RegistrationTests:44  ] : Open URL - http://automationpractice.com
+2021-21-07 19:55:00   INFO [RegistrationPage:25  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-21-07 19:55:11   INFO [RegistrationPage:90  ] : Click to Sign in
+2021-21-07 19:55:12   INFO [RegistrationPage:105 ] : Input email:   2unamewepp-6426@yopmail.com
+2021-21-07 19:55:12   INFO [RegistrationPage:119 ] : Click on Submit button
+2021-21-07 19:55:19   INFO [RegistrationTests:69  ] : Choose title 'Mr'
+2021-21-07 19:55:19   INFO [RegistrationTests:71  ] : Enter First Name
+2021-21-07 19:55:19   INFO [RegistrationTests:73  ] : Enter Last Name
+2021-21-07 19:55:19   INFO [RegistrationTests:76  ] : Input email
+2021-21-07 19:55:19   INFO [RegistrationTests:78  ] : Input password
+2021-21-07 19:55:19   INFO [RegistrationTests:80  ] : Choose 'Sign up for our newsletter!'
+2021-21-07 19:55:20   INFO [RegistrationTests:82  ] : Choose 'Receive special offers from our partners!'
+2021-21-07 19:55:20   INFO [RegistrationTests:84  ] : Enter First Name
+2021-21-07 19:55:20   INFO [RegistrationTests:86  ] : Enter Last Name
+2021-21-07 19:55:20   INFO [RegistrationTests:88  ] : Enter Street
+2021-21-07 19:55:20   INFO [RegistrationTests:90  ] : Enter City
+2021-21-07 19:55:20   INFO [RegistrationPage:130 ] : State '13' is selected
+2021-21-07 19:55:20   INFO [RegistrationTests:93  ] : Input Post code
+2021-21-07 19:55:20   INFO [RegistrationPage:140 ] : Country 21 is selected
+2021-21-07 19:55:20   INFO [RegistrationTests:96  ] : Enter phone number
+2021-21-07 19:55:20   INFO [RegistrationTests:98  ] : Enter alias
+2021-21-07 19:55:28   INFO [RegistrationTests:100 ] : Click on Submit
+2021-21-07 19:55:38   INFO [RegistrationTests:56  ] : Clear cookies
+2021-21-07 19:55:38   INFO [RegistrationTests:58  ] : Close browser
+2021-25-07 21:48:39   INFO [  Hamcrest:37  ] : Clear cookies
+2021-25-07 21:52:59   INFO [RegistrationPage:25  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-25-07 21:52:59  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-25-07 21:53:01   INFO [RegistrationPage:91  ] : Click to Sign in
+2021-25-07 21:53:01   INFO [RegistrationPage:106 ] : Input email:   2unamewepp-6426@yopmail.com
+2021-25-07 21:53:01   INFO [RegistrationPage:120 ] : Click on Submit button
+2021-25-07 21:53:02   INFO [  Hamcrest:50  ] : Choose title 'Mr'
+2021-25-07 21:53:02   INFO [  Hamcrest:52  ] : Enter First Name
+2021-25-07 21:53:02   INFO [  Hamcrest:54  ] : Enter Last Name
+2021-25-07 21:53:02   INFO [  Hamcrest:56  ] : Input password
+2021-25-07 21:53:03   INFO [  Hamcrest:58  ] : Enter Street
+2021-25-07 21:53:03   INFO [  Hamcrest:60  ] : Enter City
+2021-25-07 21:53:03   INFO [  Hamcrest:62  ] : Input Post code
+2021-25-07 21:53:03   INFO [  Hamcrest:64  ] : Enter phone number
+2021-25-07 21:53:03   INFO [  Hamcrest:66  ] : Enter alias
+2021-25-07 21:53:04   INFO [  Hamcrest:68  ] : Click on Register button
+2021-25-07 21:53:04   INFO [  Hamcrest:39  ] : Clear cookies
+2021-25-07 21:58:33   INFO [RegistrationPage:25  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-25-07 21:58:33  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-25-07 21:58:34   INFO [RegistrationPage:91  ] : Click to Sign in
+2021-25-07 21:58:34   INFO [RegistrationPage:106 ] : Input email:   2unamewepp-6426@yopmail.com
+2021-25-07 21:58:34   INFO [RegistrationPage:120 ] : Click on Submit button
+2021-25-07 21:58:35   INFO [  Hamcrest:50  ] : Choose title 'Mr'
+2021-25-07 21:58:35   INFO [  Hamcrest:52  ] : Enter First Name
+2021-25-07 21:58:36   INFO [  Hamcrest:54  ] : Enter Last Name
+2021-25-07 21:58:36   INFO [  Hamcrest:56  ] : Input password
+2021-25-07 21:58:36   INFO [  Hamcrest:58  ] : Enter Street
+2021-25-07 21:58:36   INFO [  Hamcrest:60  ] : Enter City
+2021-25-07 21:58:36   INFO [  Hamcrest:62  ] : Input Post code
+2021-25-07 21:58:36   INFO [  Hamcrest:64  ] : Enter phone number
+2021-25-07 21:58:36   INFO [  Hamcrest:67  ] : Enter alias
+2021-25-07 21:58:37   INFO [  Hamcrest:69  ] : Click on Register button
+2021-25-07 21:58:37   INFO [  Hamcrest:39  ] : Clear cookies
+2021-25-07 22:05:36   INFO [RegistrationPage:25  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-25-07 22:05:36  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-25-07 22:05:39   INFO [RegistrationPage:91  ] : Click to Sign in
+2021-25-07 22:05:39   INFO [RegistrationPage:106 ] : Input email:   2unamewepp-6426@yopmail.com
+2021-25-07 22:05:39   INFO [RegistrationPage:120 ] : Click on Submit button
+2021-25-07 22:05:41   INFO [  Hamcrest:51  ] : Choose title 'Mr'
+2021-25-07 22:05:41   INFO [  Hamcrest:53  ] : Enter First Name
+2021-25-07 22:05:41   INFO [  Hamcrest:55  ] : Enter Last Name
+2021-25-07 22:05:41   INFO [  Hamcrest:57  ] : Input password
+2021-25-07 22:05:41   INFO [  Hamcrest:59  ] : Enter Street
+2021-25-07 22:05:41   INFO [  Hamcrest:61  ] : Enter City
+2021-25-07 22:05:41   INFO [  Hamcrest:63  ] : Input Post code
+2021-25-07 22:05:41   INFO [  Hamcrest:65  ] : Enter phone number
+2021-25-07 22:05:41   INFO [  Hamcrest:68  ] : Enter alias
+2021-25-07 22:05:42   INFO [  Hamcrest:70  ] : Click on Register button
+2021-25-07 22:05:42   INFO [  Hamcrest:40  ] : Clear cookies
+2021-25-07 22:09:50   INFO [RegistrationPage:25  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-25-07 22:09:50  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-25-07 22:09:52   INFO [RegistrationPage:91  ] : Click to Sign in
+2021-25-07 22:09:52   INFO [RegistrationPage:106 ] : Input email:   2unamewepp-6426@yopmail.com
+2021-25-07 22:09:52   INFO [RegistrationPage:120 ] : Click on Submit button
+2021-25-07 22:09:54   INFO [  Hamcrest:55  ] : Choose title 'Mr'
+2021-25-07 22:09:54   INFO [  Hamcrest:57  ] : Enter First Name
+2021-25-07 22:09:54   INFO [  Hamcrest:59  ] : Enter Last Name
+2021-25-07 22:09:54   INFO [  Hamcrest:61  ] : Input password
+2021-25-07 22:09:54   INFO [  Hamcrest:63  ] : Enter Street
+2021-25-07 22:09:54   INFO [  Hamcrest:65  ] : Enter City
+2021-25-07 22:09:54   INFO [  Hamcrest:67  ] : Input Post code
+2021-25-07 22:09:54   INFO [  Hamcrest:69  ] : Enter phone number
+2021-25-07 22:09:55   INFO [  Hamcrest:72  ] : Enter alias
+2021-25-07 22:09:57   INFO [  Hamcrest:74  ] : Click on Register button
+2021-25-07 22:09:57   INFO [  Hamcrest:78  ] : First Alert text is: There is 1 error
+2021-25-07 22:09:57   INFO [  Hamcrest:44  ] : Clear cookies
+2021-25-07 22:10:24   INFO [RegistrationPage:25  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-25-07 22:10:24  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-25-07 22:10:25   INFO [RegistrationPage:91  ] : Click to Sign in
+2021-25-07 22:10:25   INFO [RegistrationPage:106 ] : Input email:   2unamewepp-6426@yopmail.com
+2021-25-07 22:10:25   INFO [RegistrationPage:120 ] : Click on Submit button
+2021-25-07 22:10:27   INFO [  Hamcrest:55  ] : Choose title 'Mr'
+2021-25-07 22:10:27   INFO [  Hamcrest:57  ] : Enter First Name
+2021-25-07 22:10:27   INFO [  Hamcrest:59  ] : Enter Last Name
+2021-25-07 22:10:27   INFO [  Hamcrest:61  ] : Input password
+2021-25-07 22:10:27   INFO [  Hamcrest:63  ] : Enter Street
+2021-25-07 22:10:27   INFO [  Hamcrest:65  ] : Enter City
+2021-25-07 22:10:28   INFO [  Hamcrest:67  ] : Input Post code
+2021-25-07 22:10:28   INFO [  Hamcrest:69  ] : Enter phone number
+2021-25-07 22:10:28   INFO [  Hamcrest:72  ] : Enter alias
+2021-25-07 22:10:29   INFO [  Hamcrest:74  ] : Click on Register button
+2021-25-07 22:10:29   INFO [  Hamcrest:44  ] : Clear cookies
+2021-25-07 22:11:21   INFO [RegistrationPage:25  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-25-07 22:11:21  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-25-07 22:11:22   INFO [RegistrationPage:91  ] : Click to Sign in
+2021-25-07 22:11:22   INFO [RegistrationPage:106 ] : Input email:   2unamewepp-6426@yopmail.com
+2021-25-07 22:11:22   INFO [RegistrationPage:120 ] : Click on Submit button
+2021-25-07 22:11:24   INFO [  Hamcrest:55  ] : Choose title 'Mr'
+2021-25-07 22:11:24   INFO [  Hamcrest:57  ] : Enter First Name
+2021-25-07 22:11:24   INFO [  Hamcrest:59  ] : Enter Last Name
+2021-25-07 22:11:24   INFO [  Hamcrest:61  ] : Input password
+2021-25-07 22:11:24   INFO [  Hamcrest:63  ] : Enter Street
+2021-25-07 22:11:24   INFO [  Hamcrest:65  ] : Enter City
+2021-25-07 22:11:24   INFO [  Hamcrest:67  ] : Input Post code
+2021-25-07 22:11:24   INFO [  Hamcrest:69  ] : Enter phone number
+2021-25-07 22:11:24   INFO [  Hamcrest:72  ] : Enter alias
+2021-25-07 22:11:26   INFO [  Hamcrest:74  ] : Click on Register button
+2021-25-07 22:11:26   INFO [  Hamcrest:78  ] : First Alert text is: There is 1 error
+2021-25-07 22:11:26   INFO [  Hamcrest:44  ] : Clear cookies
+2021-25-07 22:11:26   INFO [  Hamcrest:46  ] : Close browser
+2021-25-07 22:17:10   INFO [RegistrationPage:25  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-25-07 22:17:10  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-25-07 22:17:13   INFO [RegistrationPage:91  ] : Click to Sign in
+2021-25-07 22:17:13   INFO [RegistrationPage:106 ] : Input email:   2unamewepp-6426@yopmail.com
+2021-25-07 22:17:13   INFO [RegistrationPage:120 ] : Click on Submit button
+2021-25-07 22:17:15   INFO [  Hamcrest:55  ] : Choose title 'Mr'
+2021-25-07 22:17:15   INFO [  Hamcrest:57  ] : Enter First Name
+2021-25-07 22:17:15   INFO [  Hamcrest:59  ] : Enter Last Name
+2021-25-07 22:17:15   INFO [  Hamcrest:61  ] : Input password
+2021-25-07 22:17:15   INFO [  Hamcrest:63  ] : Enter Street
+2021-25-07 22:17:15   INFO [  Hamcrest:65  ] : Enter City
+2021-25-07 22:17:16   INFO [  Hamcrest:67  ] : Input Post code
+2021-25-07 22:17:16   INFO [  Hamcrest:69  ] : Enter phone number
+2021-25-07 22:17:16   INFO [  Hamcrest:72  ] : Enter alias
+2021-25-07 22:17:17   INFO [  Hamcrest:74  ] : Click on Register button
+2021-25-07 22:17:17   INFO [  Hamcrest:78  ] : Main alert text is: There is 1 error
+2021-25-07 22:17:17   INFO [  Hamcrest:82  ] : First error text is: This country requires you to choose a State.
+2021-25-07 22:17:17   INFO [  Hamcrest:44  ] : Clear cookies
+2021-25-07 22:17:17   INFO [  Hamcrest:46  ] : Close browser
