@@ -21,7 +21,7 @@ public class RegistrationTests {
 
     public WebDriver webDriver;
     private Logger logger = Logger.getLogger(getClass());
-    String email = "1unamewepp-6426@yopmail.com";
+    String email = "2undumewepp-642617@yopmail.com";
 
     public RegistrationPage registrationPage;
     public MainPage mainPage;
@@ -53,51 +53,37 @@ public class RegistrationTests {
     public void tearDown(){
         //Close chromedriver
         webDriver.manage().deleteAllCookies();
-        logger.info("Clear cookies");
-        webDriver.quit();
-        logger.info("Close browser");
+//        logger.info("Clear cookies");
+//        webDriver.quit();
+//        logger.info("Close browser");
     }
 
     @Test
     public void testRegistrationValidByPageObj(){
         registrationPage.openRegistrationPage();
         registrationPage.clickSignIn();
-        registrationPage.InputEmailCreate("2unamewepp-6426@yopmail.com");
+        registrationPage.InputEmailCreate(email);
         registrationPage.submitButtonCreate();
         //another method
-        registrationPage.formAccount.click();
-        logger.info("Choose title 'Mr'");
-        registrationPage.customerFirstNameInput.sendKeys("Alex");
-        logger.info("Enter First Name");
-        registrationPage.customerLastNameInput.sendKeys("Barilovsky");
-        logger.info("Enter Last Name");
-        registrationPage.emailInput.clear();
-        registrationPage.emailInput.sendKeys("2unamewepp-6426@yopmail.com");
-        logger.info("Input email");
-        registrationPage.passwordInput.sendKeys("QWErty123");
-        logger.info("Input password");
-        registrationPage.checkboxNewsLetter.click();
+        registrationPage.inputFormAccount();
+        registrationPage.inputCustomerFirstName("Alex");
+        registrationPage.inputCustomerLastName("Barilovsky");
+        registrationPage.inputEmail(email);
+        registrationPage.inputPassword("QWErty123");
+        registrationPage.clickCheckboxNewsLetter();
         logger.info("Choose 'Sign up for our newsletter!'");
-        registrationPage.checkboxNewsOptin.click();
+        registrationPage.clickCheckboxNewsOption();
         logger.info("Choose 'Receive special offers from our partners!'");
-        registrationPage.firstNameInput.sendKeys("Alex");
-        logger.info("Enter First Name");
-        registrationPage.lastNameInput.sendKeys("Barilovsky");
-        logger.info("Enter Last Name");
-        registrationPage.streetInput.sendKeys("Ocean Street 58");
-        logger.info("Enter Street");
-        registrationPage.cityInput.sendKeys("Chicago");
-        logger.info("Enter City");
+        registrationPage.inputFirstName("Alex");
+        registrationPage.inputLastName("Barilovsky");
+        registrationPage.inputStreet("Ocean Street 58");
+        registrationPage.inputCity("Chicago");
         registrationPage.selectState();
-        registrationPage.postCodeInput.sendKeys("12345");
-        logger.info("Input Post code");
+        registrationPage.inputPostCode("12345");
         registrationPage.selectCountry();
-        registrationPage.phoneNumberInput.sendKeys("12345678");
-        logger.info("Enter phone number");
-        registrationPage.aliasInput.sendKeys("2unamewepp-6426@yopmail.com");
-        logger.info("Enter alias");
-        registrationPage.submitAccount.click();
-        logger.info("Click on Submit");
+        registrationPage.inputPhoneNumber("12345678");
+        registrationPage.inputAlias(email);
+        registrationPage.clickSubmitAccount();
         registrationPage.titleRegisteredAccount.isDisplayed();
         logger.info("Verify if account created");
 

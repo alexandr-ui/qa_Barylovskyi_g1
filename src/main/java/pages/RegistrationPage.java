@@ -1,7 +1,7 @@
 package pages;
 
 import org.junit.Assert;
-import org.openqa.selenium.By;
+//import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -69,7 +69,7 @@ public class RegistrationPage extends MainPage{
     @FindBy(id = "submitAccount")
     public WebElement submitAccount;
 
-    @FindBy(id = "//div[@id='center_column']/h1")
+    @FindBy(xpath = "//div[@id='center_column']/h1")
     public WebElement titleRegisteredAccount;
 
     public RegistrationPage(WebDriver webDriver) {
@@ -86,13 +86,7 @@ public class RegistrationPage extends MainPage{
      * */
 
     public void clickSignIn(){
-        try{
-            loginInput.click();
-            logger.info("Click to Sign in");
-        } catch(Exception e) {
-            logger.error("Can't click to Sign in");
-            Assert.fail("Can't click to Sign in");
-        }
+        webElements.clickOnElement(loginInput);
     }
 
     /**
@@ -100,28 +94,59 @@ public class RegistrationPage extends MainPage{
      * @param email
      * */
 
-    public void InputEmailCreate(String email ){
-        try{
-            emailCreateInput.sendKeys(email);
-            logger.info("Input email:   " + email);
-
-        } catch(Exception e){
-            logger.error("Can't input email " + email);
-            Assert.fail("Can't input email " + email);
-        }
+    public void InputEmailCreate(String email) {
+        webElements.inputText(emailCreateInput, email);
     }
 
     /**
      * Method submit button
      * */
     public void submitButtonCreate(){
-        try{
-            submitButtonCreate.click();
-            logger.info("Click on Submit button");
-        } catch(Exception e){
-            logger.error("Can't click on submit");
-            Assert.fail("Can't click on submit");
-        }
+        webElements.clickOnElement(submitButtonCreate);
+    }
+
+    public void inputFormAccount(){
+        webElements.clickOnElement(formAccount);
+    }
+
+    public void inputCustomerFirstName(String firstName){
+        webElements.inputText(customerFirstNameInput, firstName);
+    }
+
+    public void inputCustomerLastName(String lastName){
+        webElements.inputText(customerLastNameInput, lastName);
+    }
+
+    public void inputEmail(String email){
+        webElements.inputText(emailInput, email);
+    }
+
+    public void inputPassword(String password) {
+        webElements.inputText(passwordInput, password);
+    }
+
+    public void clickCheckboxNewsLetter() {
+        webElements.clickOnElement(checkboxNewsLetter);
+    }
+
+    public void clickCheckboxNewsOption() {
+        webElements.clickOnElement(checkboxNewsOptin);
+    }
+
+    public void inputFirstName(String firstName) {
+        webElements.inputText(firstNameInput, firstName);
+    }
+
+    public void inputLastName(String lastName) {
+        webElements.inputText(lastNameInput, lastName);
+    }
+
+    public void inputStreet(String street){
+        webElements.inputText(streetInput, street);
+    }
+
+    public void inputCity(String city) {
+        webElements.inputText(cityInput, city);
     }
 
     public void selectState(){
@@ -134,6 +159,10 @@ public class RegistrationPage extends MainPage{
         }
     }
 
+    public void inputPostCode(String code) {
+        webElements.inputText(postCodeInput, code);
+    }
+
     public void selectCountry(){
         try{
             Select country = new Select(selectCountryByValue);
@@ -142,6 +171,22 @@ public class RegistrationPage extends MainPage{
         } catch(Exception e){
             logger.error("Country can't be selected");
         }
+    }
+
+    public void inputPhoneNumber(String number) {
+        webElements.inputText(phoneNumberInput, number);
+    }
+
+    public void inputAlias(String alias) {
+        webElements.inputText(aliasInput, alias);
+    }
+
+    public void clickSubmitAccount() {
+        webElements.clickOnElement(submitAccount);
+    }
+
+    public void isDisplayedTextByXpath(String text) {
+        webElements.isElementPresent(text);
     }
 
 
