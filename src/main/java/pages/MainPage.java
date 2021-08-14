@@ -5,6 +5,8 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import static org.hamcrest.CoreMatchers.is;
+
 public class MainPage {
 
     WebDriver webDriver;
@@ -33,4 +35,15 @@ public class MainPage {
 
         }
     }
+
+    public void checkTitle(String expectedTitle){
+        try{
+            Assert.assertThat("Title not matched", webDriver.getTitle(), is(expectedTitle ));
+        } catch (Exception e) {
+            logger.error("Cannot find title " + expectedTitle);
+            Assert.fail("Cannot find title " + expectedTitle);
+        }
+    }
+
+
 }

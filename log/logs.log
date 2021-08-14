@@ -573,3 +573,40 @@
 2021-14-08 11:43:03   INFO [WebElements:29  ] : 2undumewepp-642617@yopmail.com was inputed
 2021-14-08 11:43:15   INFO [WebElements:45  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
 2021-14-08 11:43:25   INFO [RegistrationTests:88  ] : Verify if account created
+2021-14-08 14:52:45   INFO [RegistrationTests:36  ] : Open URL - http://automationpractice.com
+2021-14-08 14:52:45   INFO [RegistrationPage:28  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-14-08 14:52:45  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-14-08 14:52:48   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (e21f052416dc192eab22f613f155bfaa)] -> xpath: //a[@class='login']]
+2021-14-08 14:52:48   INFO [WebElements:31  ] : 2undumewepp-642617@yopmail.com was inputed
+2021-14-08 14:52:49   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (e21f052416dc192eab22f613f155bfaa)] -> xpath: //button[@id='SubmitCreate']]
+2021-14-08 14:53:09  ERROR [WebElements:49  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]'
+2021-14-08 14:53:19   INFO [RegistrationTests:46  ] : Clear cookies
+2021-14-08 14:53:19   INFO [RegistrationTests:48  ] : Close browser
+2021-14-08 14:54:39   INFO [RegistrationTests:36  ] : Open URL - http://automationpractice.com
+2021-14-08 14:54:40   INFO [RegistrationPage:28  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-14-08 14:54:40  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-14-08 14:54:41   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (103b316850349623fc1823b8efe626fd)] -> xpath: //a[@class='login']]
+2021-14-08 14:54:42   INFO [WebElements:31  ] : 2undumewtepp-642617@yopmail.com was inputed
+2021-14-08 14:54:42   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (103b316850349623fc1823b8efe626fd)] -> xpath: //button[@id='SubmitCreate']]
+2021-14-08 14:54:43   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (103b316850349623fc1823b8efe626fd)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-14-08 14:54:43   INFO [WebElements:31  ] : Alex was inputed
+2021-14-08 14:54:43   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-14-08 14:54:44   INFO [WebElements:31  ] : 2undumewtepp-642617@yopmail.com was inputed
+2021-14-08 14:54:44   INFO [WebElements:31  ] : QWErty123 was inputed
+2021-14-08 14:54:44   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (103b316850349623fc1823b8efe626fd)] -> id: newsletter]
+2021-14-08 14:54:44   INFO [RegistrationTests:26  ] : Choose 'Sign up for our newsletter!'
+2021-14-08 14:54:44   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (103b316850349623fc1823b8efe626fd)] -> id: optin]
+2021-14-08 14:54:44   INFO [RegistrationTests:28  ] : Choose 'Receive special offers from our partners!'
+2021-14-08 14:54:44   INFO [WebElements:31  ] : Alex was inputed
+2021-14-08 14:54:44   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-14-08 14:54:44   INFO [WebElements:31  ] : Ocean Street 58 was inputed
+2021-14-08 14:54:44   INFO [WebElements:31  ] : Chicago was inputed
+2021-14-08 14:54:45   INFO [RegistrationPage:156 ] : State '13' is selected
+2021-14-08 14:54:45   INFO [WebElements:31  ] : 12345 was inputed
+2021-14-08 14:54:45   INFO [RegistrationPage:170 ] : Country 21 is selected
+2021-14-08 14:54:45   INFO [WebElements:31  ] : 12345678 was inputed
+2021-14-08 14:54:45   INFO [WebElements:31  ] : 2undumewtepp-642617@yopmail.com was inputed
+2021-14-08 14:54:57   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-14-08 14:54:57   INFO [RegistrationTests:40  ] : Verify if account created
+2021-14-08 14:54:57   INFO [RegistrationTests:46  ] : Clear cookies
+2021-14-08 14:54:57   INFO [RegistrationTests:48  ] : Close browser
