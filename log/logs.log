@@ -610,3 +610,172 @@
 2021-14-08 14:54:57   INFO [RegistrationTests:40  ] : Verify if account created
 2021-14-08 14:54:57   INFO [RegistrationTests:46  ] : Clear cookies
 2021-14-08 14:54:57   INFO [RegistrationTests:48  ] : Close browser
+2021-15-08 12:20:38   INFO [RegistrationTests:39  ] : Open URL - http://automationpractice.com
+2021-15-08 12:20:40   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-15-08 12:20:40  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-15-08 12:20:42   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (925ed92c327075f10af9108ad5d66e6a)] -> xpath: //a[@class='login']]
+2021-15-08 12:20:43   INFO [WebElements:31  ] : 2undumewtepp-642617@yopmail.com was inputed
+2021-15-08 12:20:43   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (925ed92c327075f10af9108ad5d66e6a)] -> xpath: //button[@id='SubmitCreate']]
+2021-15-08 12:21:03  ERROR [WebElements:49  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]'
+2021-15-08 12:21:13   INFO [RegistrationTests:49  ] : Clear cookies
+2021-15-08 12:21:13   INFO [RegistrationTests:51  ] : Close browser
+2021-15-08 12:22:25   INFO [RegistrationTests:39  ] : Open URL - http://automationpractice.com
+2021-15-08 12:22:26   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-15-08 12:22:26  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-15-08 12:22:28   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (0b21ff486a4efdf40cc7dea7607f9763)] -> xpath: //a[@class='login']]
+2021-15-08 12:22:28   INFO [WebElements:31  ] : 3undumewtepp-642617@yopmail.com was inputed
+2021-15-08 12:22:29   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (0b21ff486a4efdf40cc7dea7607f9763)] -> xpath: //button[@id='SubmitCreate']]
+2021-15-08 12:22:30   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (0b21ff486a4efdf40cc7dea7607f9763)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-15-08 12:22:30   INFO [WebElements:31  ] : Alex was inputed
+2021-15-08 12:22:30   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-15-08 12:22:30   INFO [WebElements:31  ] : 3undumewtepp-642617@yopmail.com was inputed
+2021-15-08 12:22:30   INFO [WebElements:31  ] : QWErty123 was inputed
+2021-15-08 12:22:31   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (0b21ff486a4efdf40cc7dea7607f9763)] -> id: newsletter]
+2021-15-08 12:22:31   INFO [RegistrationTests:26  ] : Choose 'Sign up for our newsletter!'
+2021-15-08 12:22:31   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (0b21ff486a4efdf40cc7dea7607f9763)] -> id: optin]
+2021-15-08 12:22:31   INFO [RegistrationTests:28  ] : Choose 'Receive special offers from our partners!'
+2021-15-08 12:22:31   INFO [WebElements:31  ] : Alex was inputed
+2021-15-08 12:22:31   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-15-08 12:22:31   INFO [WebElements:31  ] : Ocean Street 58 was inputed
+2021-15-08 12:22:31   INFO [WebElements:31  ] : Chicago was inputed
+2021-15-08 12:22:31   INFO [RegistrationPage:156 ] : State '13' is selected
+2021-15-08 12:22:31   INFO [WebElements:31  ] : 12345 was inputed
+2021-15-08 12:22:31   INFO [RegistrationPage:170 ] : Country 21 is selected
+2021-15-08 12:22:32   INFO [WebElements:31  ] : 12345678 was inputed
+2021-15-08 12:22:32   INFO [WebElements:31  ] : 3undumewtepp-642617@yopmail.com was inputed
+2021-15-08 12:22:43   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-15-08 12:22:43   INFO [RegistrationTests:40  ] : Verify if account created
+2021-15-08 12:22:43   INFO [RegistrationTests:49  ] : Clear cookies
+2021-15-08 12:22:43   INFO [RegistrationTests:51  ] : Close browser
+2021-15-08 12:25:37   INFO [RegistrationTests:39  ] : Open URL - http://automationpractice.com
+2021-15-08 12:25:37   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-15-08 12:25:37  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-15-08 12:25:40   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (f104de655bf9889e74dd37fddfa7c5b4)] -> xpath: //a[@class='login']]
+2021-15-08 12:25:40   INFO [WebElements:31  ] : 4undumewtepp-642617@yopmail.com was inputed
+2021-15-08 12:25:40   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (f104de655bf9889e74dd37fddfa7c5b4)] -> xpath: //button[@id='SubmitCreate']]
+2021-15-08 12:25:42   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (f104de655bf9889e74dd37fddfa7c5b4)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-15-08 12:25:42   INFO [WebElements:31  ] : Alex was inputed
+2021-15-08 12:25:42   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-15-08 12:25:42   INFO [WebElements:31  ] : 4undumewtepp-642617@yopmail.com was inputed
+2021-15-08 12:25:42   INFO [WebElements:31  ] : QWErty123 was inputed
+2021-15-08 12:25:42   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (f104de655bf9889e74dd37fddfa7c5b4)] -> id: newsletter]
+2021-15-08 12:25:42   INFO [RegistrationTests:26  ] : Choose 'Sign up for our newsletter!'
+2021-15-08 12:25:43   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (f104de655bf9889e74dd37fddfa7c5b4)] -> id: optin]
+2021-15-08 12:25:43   INFO [RegistrationTests:28  ] : Choose 'Receive special offers from our partners!'
+2021-15-08 12:25:43   INFO [WebElements:31  ] : Alex was inputed
+2021-15-08 12:25:43   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-15-08 12:25:43   INFO [WebElements:31  ] : Ocean Street 58 was inputed
+2021-15-08 12:25:43   INFO [WebElements:31  ] : Chicago was inputed
+2021-15-08 12:25:43   INFO [RegistrationPage:156 ] : State '13' is selected
+2021-15-08 12:25:43   INFO [WebElements:31  ] : 12345 was inputed
+2021-15-08 12:25:43   INFO [RegistrationPage:170 ] : Country 21 is selected
+2021-15-08 12:25:43   INFO [WebElements:31  ] : 12345678 was inputed
+2021-15-08 12:25:44   INFO [WebElements:31  ] : 4undumewtepp-642617@yopmail.com was inputed
+2021-15-08 12:25:55   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-15-08 12:25:55   INFO [RegistrationTests:40  ] : Verify if account created
+2021-15-08 12:25:55   INFO [RegistrationTests:49  ] : Clear cookies
+2021-15-08 12:25:55   INFO [RegistrationTests:51  ] : Close browser
+2021-15-08 14:04:08   INFO [RegistrationTests:52  ] : Open URL - http://automationpractice.com
+2021-15-08 14:04:09   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-15-08 14:04:09  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-15-08 14:04:10   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (f7211804f921016cb4bbcc811f11c2ae)] -> xpath: //a[@class='login']]
+2021-15-08 14:04:11   INFO [WebElements:31  ] : 4undumewtepp-642617@yopmail.com was inputed
+2021-15-08 14:04:11   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (f7211804f921016cb4bbcc811f11c2ae)] -> xpath: //button[@id='SubmitCreate']]
+2021-15-08 14:04:31  ERROR [WebElements:49  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]'
+2021-15-08 14:04:42   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA Auto Home Work\resources\screenshot\RegistrationTests\RegistrationTests\testRegistrationValidByPageObj.png
+2021-15-08 14:04:42   INFO [RegistrationTests:65  ] : Clear cookies
+2021-15-08 14:04:42   INFO [RegistrationTests:67  ] : Close browser
+2021-16-08 18:46:21   INFO [RegistrationTests:52  ] : Open URL - http://automationpractice.com
+2021-16-08 18:46:30   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-16-08 18:46:30  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-16-08 18:46:41   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (b7bb20ca2108493b633a3d8d320a27f8)] -> xpath: //a[@class='login']]
+2021-16-08 18:46:42   INFO [WebElements:31  ] : 5undumewtepp-642617@yopmail.com was inputed
+2021-16-08 18:46:42   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (b7bb20ca2108493b633a3d8d320a27f8)] -> xpath: //button[@id='SubmitCreate']]
+2021-16-08 18:46:48   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (b7bb20ca2108493b633a3d8d320a27f8)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 18:46:48   INFO [WebElements:31  ] : Alex was inputed
+2021-16-08 18:46:48   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-16-08 18:46:48   INFO [WebElements:31  ] : 5undumewtepp-642617@yopmail.com was inputed
+2021-16-08 18:46:48   INFO [WebElements:31  ] : QWErty123 was inputed
+2021-16-08 18:46:48   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (b7bb20ca2108493b633a3d8d320a27f8)] -> id: newsletter]
+2021-16-08 18:46:48   INFO [RegistrationTests:26  ] : Choose 'Sign up for our newsletter!'
+2021-16-08 18:46:48   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (b7bb20ca2108493b633a3d8d320a27f8)] -> id: optin]
+2021-16-08 18:46:48   INFO [RegistrationTests:28  ] : Choose 'Receive special offers from our partners!'
+2021-16-08 18:46:48   INFO [WebElements:31  ] : Alex was inputed
+2021-16-08 18:46:49   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-16-08 18:46:49   INFO [WebElements:31  ] : Ocean Street 58 was inputed
+2021-16-08 18:46:49   INFO [WebElements:31  ] : Chicago was inputed
+2021-16-08 18:46:49   INFO [RegistrationPage:156 ] : State '13' is selected
+2021-16-08 18:46:49   INFO [WebElements:31  ] : 12345 was inputed
+2021-16-08 18:46:49   INFO [RegistrationPage:170 ] : Country 21 is selected
+2021-16-08 18:46:49   INFO [WebElements:31  ] : 12345678 was inputed
+2021-16-08 18:46:49   INFO [WebElements:31  ] : 5undumewtepp-642617@yopmail.com was inputed
+2021-16-08 18:47:13   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-16-08 18:47:13   INFO [RegistrationTests:40  ] : Verify if account created
+2021-16-08 18:47:13   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA Auto Home Work\resources\screenshot\RegistrationTests\RegistrationTests\testRegistrationValidByPageObj.png
+2021-16-08 18:47:13   INFO [RegistrationTests:65  ] : Clear cookies
+2021-16-08 18:47:14   INFO [RegistrationTests:67  ] : Close browser
+2021-16-08 19:08:37   INFO [RegistrationTests:55  ] : Open URL - http://automationpractice.com
+2021-16-08 19:08:42   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-16-08 19:08:42  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-16-08 19:08:53   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (c090221d69f92200bfc28de6993dfb6a)] -> xpath: //a[@class='login']]
+2021-16-08 19:08:53   INFO [WebElements:31  ] : romeo.aufderhar@yahoo.com was inputed
+2021-16-08 19:08:53   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (c090221d69f92200bfc28de6993dfb6a)] -> xpath: //button[@id='SubmitCreate']]
+2021-16-08 19:08:59   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (c090221d69f92200bfc28de6993dfb6a)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 19:08:59   INFO [WebElements:31  ] : Alex was inputed
+2021-16-08 19:08:59   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-16-08 19:08:59   INFO [WebElements:31  ] : jordon.stanton@gmail.com was inputed
+2021-16-08 19:08:59   INFO [WebElements:31  ] : QWErty123 was inputed
+2021-16-08 19:08:59   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (c090221d69f92200bfc28de6993dfb6a)] -> id: newsletter]
+2021-16-08 19:08:59   INFO [RegistrationTests:26  ] : Choose 'Sign up for our newsletter!'
+2021-16-08 19:08:59   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (c090221d69f92200bfc28de6993dfb6a)] -> id: optin]
+2021-16-08 19:08:59   INFO [RegistrationTests:28  ] : Choose 'Receive special offers from our partners!'
+2021-16-08 19:09:00   INFO [WebElements:31  ] : Alex was inputed
+2021-16-08 19:09:00   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-16-08 19:09:00   INFO [WebElements:31  ] : Ocean Street 58 was inputed
+2021-16-08 19:09:00   INFO [WebElements:31  ] : Chicago was inputed
+2021-16-08 19:09:00   INFO [RegistrationPage:156 ] : State '13' is selected
+2021-16-08 19:09:00   INFO [WebElements:31  ] : 12345 was inputed
+2021-16-08 19:09:00   INFO [RegistrationPage:170 ] : Country 21 is selected
+2021-16-08 19:09:00   INFO [WebElements:31  ] : 12345678 was inputed
+2021-16-08 19:09:00   INFO [WebElements:31  ] : claire.rolfson@gmail.com was inputed
+2021-16-08 19:09:25   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-16-08 19:09:25   INFO [RegistrationTests:40  ] : Verify if account created
+2021-16-08 19:09:26   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA Auto Home Work/\resources/\screenshot/\RegistrationTests/\RegistrationTests/\testRegistrationValidByPageObj.png
+2021-16-08 19:09:26   INFO [RegistrationTests:68  ] : Clear cookies
+2021-16-08 19:09:26   INFO [RegistrationTests:70  ] : Close browser
+2021-16-08 19:42:11   INFO [RegistrationTests:55  ] : Open URL - http://automationpractice.com
+2021-16-08 19:42:11   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-16-08 19:42:11  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-16-08 19:42:31  ERROR [WebElements:49  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2021-16-08 19:42:41   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA Auto Home Work\resources\screenshot\RegistrationTests\RegistrationTests\testRegistrationValidByPageObj.png
+2021-16-08 19:42:41   INFO [RegistrationTests:68  ] : Clear cookies
+2021-16-08 19:42:42   INFO [RegistrationTests:70  ] : Close browser
+2021-16-08 19:46:09   INFO [RegistrationTests:55  ] : Open URL - http://automationpractice.com
+2021-16-08 19:46:16   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-16-08 19:46:16  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-16-08 19:46:27   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (9b6d6c6858581d27a4a787b2ac146a3b)] -> xpath: //a[@class='login']]
+2021-16-08 19:46:28   INFO [WebElements:31  ] : mervin.stiedemann@gmail.com was inputed
+2021-16-08 19:46:28   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (9b6d6c6858581d27a4a787b2ac146a3b)] -> xpath: //button[@id='SubmitCreate']]
+2021-16-08 19:46:35   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (9b6d6c6858581d27a4a787b2ac146a3b)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-16-08 19:46:35   INFO [WebElements:31  ] : Alex was inputed
+2021-16-08 19:46:35   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-16-08 19:46:35   INFO [WebElements:31  ] : digna.stracke@hotmail.com was inputed
+2021-16-08 19:46:35   INFO [WebElements:31  ] : QWErty123 was inputed
+2021-16-08 19:46:36   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (9b6d6c6858581d27a4a787b2ac146a3b)] -> id: newsletter]
+2021-16-08 19:46:36   INFO [RegistrationTests:26  ] : Choose 'Sign up for our newsletter!'
+2021-16-08 19:46:36   INFO [WebElements:47  ] : Element was clicked [[ChromeDriver: chrome on MAC (9b6d6c6858581d27a4a787b2ac146a3b)] -> id: optin]
+2021-16-08 19:46:36   INFO [RegistrationTests:28  ] : Choose 'Receive special offers from our partners!'
+2021-16-08 19:46:36   INFO [WebElements:31  ] : Alex was inputed
+2021-16-08 19:46:36   INFO [WebElements:31  ] : Barilovsky was inputed
+2021-16-08 19:46:36   INFO [WebElements:31  ] : Ocean Street 58 was inputed
+2021-16-08 19:46:36   INFO [WebElements:31  ] : Chicago was inputed
+2021-16-08 19:46:36   INFO [RegistrationPage:156 ] : State '13' is selected
+2021-16-08 19:46:36   INFO [WebElements:31  ] : 12345 was inputed
+2021-16-08 19:46:36   INFO [RegistrationPage:170 ] : Country 21 is selected
+2021-16-08 19:46:37   INFO [WebElements:31  ] : 12345678 was inputed
+2021-16-08 19:46:37   INFO [WebElements:31  ] : odelia.predovic@hotmail.com was inputed
+2021-16-08 19:47:00   INFO [WebElements:47  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-16-08 19:47:00   INFO [RegistrationTests:40  ] : Verify if account created
+2021-16-08 19:47:01   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA Auto Home Work\resources\screenshot\RegistrationTests\RegistrationTests\testRegistrationValidByPageObj.png
+2021-16-08 19:47:01   INFO [RegistrationTests:68  ] : Clear cookies
+2021-16-08 19:47:01   INFO [RegistrationTests:70  ] : Close browser
