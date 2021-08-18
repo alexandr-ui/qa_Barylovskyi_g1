@@ -149,28 +149,30 @@ public class RegistrationPage extends MainPage{
         webElements.inputText(cityInput, city);
     }
 
-    public void selectState(){
-        try{
-            Select state = new Select(selectStateByValue);
-            state.selectByValue("13");
-            logger.info("State '13' is selected");
-        } catch(Exception e){
-            logger.error("State can't be selected");
-        }
+    public void selectState(String value){
+//        try{
+//            Select state = new Select(selectStateByValue);
+//            state.selectByValue("13");
+//            logger.info("State '13' is selected");
+//        } catch(Exception e){
+//            logger.error("State can't be selected");
+//        }
+        webElements.selectTextInDropDownByValue(selectStateByValue, value);
     }
 
     public void inputPostCode(String code) {
         webElements.inputText(postCodeInput, code);
     }
 
-    public void selectCountry(){
-        try{
-            Select country = new Select(selectCountryByValue);
-            country.selectByValue("21");
-            logger.info("Country 21 is selected");
-        } catch(Exception e){
-            logger.error("Country can't be selected");
-        }
+    public void selectCountry(String value){
+//        try{
+//            Select country = new Select(selectCountryByValue);
+//            country.selectByValue("21");
+//            logger.info("Country 21 is selected");
+//        } catch(Exception e){
+//            logger.error("Country can't be selected");
+//        }
+        webElements.selectTextInDropDownByValue(selectCountryByValue, value);
     }
 
     public void inputPhoneNumber(String number) {

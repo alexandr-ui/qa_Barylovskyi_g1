@@ -8,12 +8,19 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.rules.TestName;
+import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import pages.MainPage;
 import pages.RegistrationPage;
 
 import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.CoreMatchers.is;
@@ -26,29 +33,57 @@ public class MainTest {
     private String pathToScreenShot;
     public Utils utils = new Utils();
     public Faker faker;
+    private String browser;
+    private boolean isTestPass = false;
 
-    public MainTest() {}
+//    public MainTest(String browser) {
+//        this.browser = browser;
+//    }
+
+        public MainTest() {}
+
+//    @Parameterized.Parameters
+//    public static Collection testData() throws IOException {
+//        return Arrays.asList(new Object[][]{
+//                {"chrome"},
+//                {"firefox"}
+//        });
+//    }
 
     @Rule
     public TestName testName = new TestName();
 
     @Before
-    public void setUp(){
+    public void setUp() throws IOException{
+
+        //Setup browser
+        if ("chrome".equals(browser)) {
+            logger.info(browser + " will be started");
+            File chromeFF = new File("./drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", chromeFF.getAbsolutePath());
+            webDriver = new ChromeDriver();
+            logger.info(browser + " is started");
+            webDriver.manage().window().maximize();
+            webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        } else if ("firefox".equals(browser)){
+            logger.info(browser + " will be started");
+            File fireFox = new File("./drivers/geckodriver");
+            System.setProperty("webdriver.gecko.driver", fireFox.getAbsolutePath());
+            webDriver = new FirefoxDriver();
+            logger.info(browser + " is started");
+            webDriver.manage().window().maximize();
+            webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        }
+
         File file = new File("");
         pathToScreenShot = file.getAbsolutePath() + "\\resources\\screenshot\\" +
                 this.getClass().getPackage().getName() + "\\" +
                 this.getClass().getSimpleName() + "\\" + this.testName.getMethodName() + ".png";
 
-        //Setup browser
-        File chromeFF = new File("./drivers/chromedriver");
-        System.setProperty("webdriver.chrome.driver", chromeFF.getAbsolutePath());
-        webDriver = new ChromeDriver();
         registrationPage = new RegistrationPage(webDriver);
         faker = new Faker();
         logger = Logger.getLogger(getClass());
 //        mainPage = new MainPage(webDriver);
-        webDriver.manage().window().maximize();
-        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         try{
             webDriver.get("http://automationpractice.com");
@@ -62,12 +97,19 @@ public class MainTest {
     @After
     public void tearDown(){
         if (!(webDriver == null)) {
+//            if (! isTestPass) {
+//                utils.screenShot(pathToScreenShot, webDriver);
+//            }
             utils.screenShot(pathToScreenShot, webDriver);
         }
         webDriver.manage().deleteAllCookies();
         logger.info("Clear cookies");
         webDriver.quit();
         logger.info("Close browser");
+    }
+
+    private void setTestPass() {
+        isTestPass = true;
     }
 
     //Matcher => CoreMatchers

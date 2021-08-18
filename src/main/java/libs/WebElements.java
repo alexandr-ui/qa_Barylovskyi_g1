@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import static org.hamcrest.CoreMatchers.is;
 
@@ -56,6 +57,23 @@ public class WebElements {
             return webDriver.findElement(By.xpath(locatorWithText)).isDisplayed();
         } catch (Exception e) {
             return false;
+        }
+    }
+
+    /**
+     * Method check select text in dropdown
+     * @param dropdown
+     * @param text
+     * */
+    public void selectTextInDropDownByValue(WebElement dropdown, String text) {
+        try {
+            Select optionsFromDropDown = new Select(dropdown);
+//            optionsFromDropDown.selectByVisibleText(text);
+            optionsFromDropDown.selectByValue(text);
+            logger.info("DropDown By Text was selected " + text);
+        } catch (Exception e) {
+            logger.error("Can't work with DropDown");
+            Assert.fail("Can't work with DropDown");
         }
     }
 
