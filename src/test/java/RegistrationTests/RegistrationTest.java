@@ -1,20 +1,10 @@
 package RegistrationTests;
 
 import MainTests.MainTest;
-import org.junit.Test;
-import pages.MainPage;
+import org.testng.annotations.Test;
+
 
 public class RegistrationTest extends MainTest {
-
-//    public RegistrationTest(String browser) {
-//        super(browser);
-//    }
-
-//    public RegistrationTest(String browser) {
-//        super(browser);
-//    }
-
-    //String email = faker.internet().emailAddress();
 
     @Test
     public void testRegistrationValidByPageObj(){

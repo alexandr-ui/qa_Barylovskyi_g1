@@ -1,89 +1,47 @@
 package MainTests;
 
 import com.github.javafaker.Faker;
-import libs.Utils;
 import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.rules.TestName;
-import org.junit.runners.Parameterized;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import pages.MainPage;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import pages.RegistrationPage;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 
-import static org.hamcrest.CoreMatchers.is;
 
 
 public class MainTest {
     public WebDriver webDriver;
     public RegistrationPage registrationPage;
     public Logger logger;
-    private String pathToScreenShot;
-    public Utils utils = new Utils();
     public Faker faker;
-    private String browser;
-    private boolean isTestPass = false;
 
-//    public MainTest(String browser) {
-//        this.browser = browser;
-//    }
+    public MainTest() {}
 
-        public MainTest() {}
+    @Parameters("browser")
 
-//    @Parameterized.Parameters
-//    public static Collection testData() throws IOException {
-//        return Arrays.asList(new Object[][]{
-//                {"chrome"},
-//                {"firefox"}
-//        });
-//    }
-
-    @Rule
-    public TestName testName = new TestName();
-
-    @Before
-    public void setUp() throws IOException{
+    @BeforeClass
+    public void setUp(){
 
         //Setup browser
-        if ("chrome".equals(browser)) {
-            logger.info(browser + " will be started");
+
             File chromeFF = new File("./drivers/chromedriver");
             System.setProperty("webdriver.chrome.driver", chromeFF.getAbsolutePath());
             webDriver = new ChromeDriver();
-            logger.info(browser + " is started");
             webDriver.manage().window().maximize();
             webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        } else if ("firefox".equals(browser)){
-            logger.info(browser + " will be started");
-            File fireFox = new File("./drivers/geckodriver");
-            System.setProperty("webdriver.gecko.driver", fireFox.getAbsolutePath());
-            webDriver = new FirefoxDriver();
-            logger.info(browser + " is started");
-            webDriver.manage().window().maximize();
-            webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        }
 
-        File file = new File("");
-        pathToScreenShot = file.getAbsolutePath() + "\\resources\\screenshot\\" +
-                this.getClass().getPackage().getName() + "\\" +
-                this.getClass().getSimpleName() + "\\" + this.testName.getMethodName() + ".png";
+            registrationPage = new RegistrationPage(webDriver);
+            faker = new Faker();
+            logger = Logger.getLogger(getClass());
 
-        registrationPage = new RegistrationPage(webDriver);
-        faker = new Faker();
-        logger = Logger.getLogger(getClass());
-//        mainPage = new MainPage(webDriver);
 
         try{
             webDriver.get("http://automationpractice.com");
@@ -94,27 +52,17 @@ public class MainTest {
         }
     }
 
-    @After
+    @AfterClass
     public void tearDown(){
         if (!(webDriver == null)) {
-//            if (! isTestPass) {
-//                utils.screenShot(pathToScreenShot, webDriver);
-//            }
-            utils.screenShot(pathToScreenShot, webDriver);
+            webDriver.manage().deleteAllCookies();
+            logger.info("Clear cookies");
+            webDriver.quit();
+            logger.info("Close browser");
         }
-        webDriver.manage().deleteAllCookies();
-        logger.info("Clear cookies");
-        webDriver.quit();
-        logger.info("Close browser");
     }
 
-    private void setTestPass() {
-        isTestPass = true;
-    }
-
-    //Matcher => CoreMatchers
-    public void checkAC(String message, boolean actualRes, boolean expectedRes){
-        Assert.assertEquals(message, actualRes, is(expectedRes));
-    }
 
 }
+
+
