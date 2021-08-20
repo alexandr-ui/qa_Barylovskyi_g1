@@ -75,7 +75,7 @@ public class RegistrationPage extends MainPage{
 
     public void openRegistrationPage(){
         openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-        logger.error("Opened page: http://automationpractice.com");
+        logger.info("Opened page: http://automationpractice.com");
     }
 
     /**

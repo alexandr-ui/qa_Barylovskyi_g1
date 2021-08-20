@@ -10,6 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+import pages.ContactUsPage;
 import pages.RegistrationPage;
 
 import java.io.File;
@@ -20,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 public class MainTest {
     public WebDriver webDriver;
     public RegistrationPage registrationPage;
+    public ContactUsPage contactUsPage;
     public Logger logger;
     public Faker faker;
 
@@ -39,6 +41,8 @@ public class MainTest {
             webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
             registrationPage = new RegistrationPage(webDriver);
+            contactUsPage = new ContactUsPage(webDriver);
+
             faker = new Faker();
             logger = Logger.getLogger(getClass());
 
@@ -57,7 +61,7 @@ public class MainTest {
         if (!(webDriver == null)) {
             webDriver.manage().deleteAllCookies();
             logger.info("Clear cookies");
-            webDriver.quit();
+            // webDriver.quit();
             logger.info("Close browser");
         }
     }

@@ -85,13 +85,13 @@ public class WebElements {
         }
     }
 
-    public void checkTextInElement(String xpath, String text) {
+    public void checkTextInElement(WebElement element, String text) {
         try {
-            String textFormElement = webDriver.findElement(By.xpath(xpath)).getText();
+            String textFormElement = element.getText();
             Assert.assertThat("Text in element is matched", textFormElement, is(text));
         } catch (Exception e) {
-            logger.error("In element can't check text" + text);
-            Assert.fail("In element can't check text" + text);
+            logger.error("In element can't check text " + text);
+            Assert.fail("In element can't check text " + text);
         }
     }
 
