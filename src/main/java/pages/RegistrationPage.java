@@ -1,11 +1,8 @@
 package pages;
 
-import org.junit.Assert;
-//import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationPage extends MainPage{
 
@@ -78,7 +75,7 @@ public class RegistrationPage extends MainPage{
 
     public void openRegistrationPage(){
         openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-        logger.error("Opened page: http://automationpractice.com");
+        logger.info("Opened page: http://automationpractice.com");
     }
 
     /**
@@ -149,28 +146,30 @@ public class RegistrationPage extends MainPage{
         webElements.inputText(cityInput, city);
     }
 
-    public void selectState(){
-        try{
-            Select state = new Select(selectStateByValue);
-            state.selectByValue("13");
-            logger.info("State '13' is selected");
-        } catch(Exception e){
-            logger.error("State can't be selected");
-        }
+    public void selectState(String value){
+//        try{
+//            Select state = new Select(selectStateByValue);
+//            state.selectByValue("13");
+//            logger.info("State '13' is selected");
+//        } catch(Exception e){
+//            logger.error("State can't be selected");
+//        }
+        webElements.selectTextInDropDownByValue(selectStateByValue, value);
     }
 
     public void inputPostCode(String code) {
         webElements.inputText(postCodeInput, code);
     }
 
-    public void selectCountry(){
-        try{
-            Select country = new Select(selectCountryByValue);
-            country.selectByValue("21");
-            logger.info("Country 21 is selected");
-        } catch(Exception e){
-            logger.error("Country can't be selected");
-        }
+    public void selectCountry(String value){
+//        try{
+//            Select country = new Select(selectCountryByValue);
+//            country.selectByValue("21");
+//            logger.info("Country 21 is selected");
+//        } catch(Exception e){
+//            logger.error("Country can't be selected");
+//        }
+        webElements.selectTextInDropDownByValue(selectCountryByValue, value);
     }
 
     public void inputPhoneNumber(String number) {
