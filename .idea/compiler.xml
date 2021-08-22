@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="QA Auto Home Work" />
+        <module name="QA_Auto_Home_Work" />
       </profile>
     </annotationProcessing>
   </component>

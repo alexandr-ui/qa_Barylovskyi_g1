@@ -1,12 +1,14 @@
 package MainTests;
 
 import com.github.javafaker.Faker;
+import libs.Utils;
 import org.apache.log4j.Logger;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.testng.Assert;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -25,8 +27,11 @@ public class MainTest {
     public Logger logger;
     public Faker faker;
 
+    public Utils utils = new Utils();
+    private String pathToScreenShot;
     public MainTest() {}
 
+    //анотация @Parameters в которой указываем browser, который берем из параметров в testng.xml
     @Parameters("browser")
 
     @BeforeClass
@@ -43,6 +48,11 @@ public class MainTest {
             registrationPage = new RegistrationPage(webDriver);
             contactUsPage = new ContactUsPage(webDriver);
 
+            File file = new File("");
+            pathToScreenShot = file.getAbsolutePath() + "/resources/screenshot/" +
+                this.getClass().getPackage().getName() + "/" +
+                this.getClass().getSimpleName() + ".png";
+
             faker = new Faker();
             logger = Logger.getLogger(getClass());
 
@@ -57,11 +67,12 @@ public class MainTest {
     }
 
     @AfterClass
-    public void tearDown(){
+    public void tearDown(ITestContext testContext){
         if (!(webDriver == null)) {
+            utils.screenShot(pathToScreenShot, webDriver);
             webDriver.manage().deleteAllCookies();
             logger.info("Clear cookies");
-            // webDriver.quit();
+            webDriver.quit();
             logger.info("Close browser");
         }
     }
