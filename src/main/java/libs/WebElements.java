@@ -1,13 +1,11 @@
 package libs;
 
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-
-import static org.hamcrest.CoreMatchers.is;
+import org.testng.Assert;
 
 
 public class WebElements {
@@ -88,7 +86,7 @@ public class WebElements {
     public void checkTextInElement(WebElement element, String text) {
         try {
             String textFormElement = element.getText();
-            Assert.assertThat("Text in element is matched", textFormElement, is(text));
+            Assert.assertEquals(textFormElement, text);
         } catch (Exception e) {
             logger.error("In element can't check text " + text);
             Assert.fail("In element can't check text " + text);

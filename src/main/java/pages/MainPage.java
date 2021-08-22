@@ -1,11 +1,10 @@
 package pages;
 import libs.WebElements;
 import org.apache.log4j.Logger;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
-import static org.hamcrest.CoreMatchers.is;
 
 public class MainPage {
 
@@ -38,7 +37,7 @@ public class MainPage {
 
     public void checkTitle(String expectedTitle){
         try{
-            Assert.assertThat("Title not matched", webDriver.getTitle(), is(expectedTitle ));
+            Assert.assertEquals(webDriver.getTitle(), expectedTitle);
         } catch (Exception e) {
             logger.error("Cannot find title " + expectedTitle);
             Assert.fail("Cannot find title " + expectedTitle);

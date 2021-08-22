@@ -26,7 +26,8 @@ public class  TestNgTest {
         System.out.println("After method TestNG");
     }
 
-    @Test (expectedExceptions = ArithmeticException.class)
+//    @Test (expectedExceptions = ArithmeticException.class)
+    @Test
     public void testNG() {
         System.out.println("test");
         Assert.assertEquals("Expected value", "expected res", "actual res");

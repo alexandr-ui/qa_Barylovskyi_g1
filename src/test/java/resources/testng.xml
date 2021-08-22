@@ -4,16 +4,19 @@
 <suite name="RegistrationTests" parallel="tests" thread-count="2">
 
     <test name="ChromeTest" verbose="1" parallel="true">
-        <parameter name="browserName" value="Chrome"></parameter>
+        <parameter name="browserName" value="chrome">
         <classes>
-            <class name="RegistrationTests.RegistrationTest"></class>
+            <class name="RegistrationTests.RegistrationTest"/>
         </classes>
+        </parameter>
     </test>
 
     <test name="ChromeTest2" verbose="1" parallel="true">
-        <parameter name="browserName" value="Chrome"></parameter>
+        <parameter name="browserName" value="chrome">
         <classes>
-            <class name="RegistrationTests.RegistrationTest"></class>
+            <class name="RegistrationTests.RegistrationTest"/>
         </classes>
+        </parameter>
     </test>
+
 </suite>
