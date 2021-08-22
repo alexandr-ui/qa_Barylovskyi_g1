@@ -8,6 +8,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.rules.TestName;
+import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,30 +26,31 @@ import java.util.concurrent.TimeUnit;
 
 import static org.hamcrest.CoreMatchers.is;
 
+@RunWith(value = Parameterized.class)
 
-public class MainTest {
+public abstract class MainTest {
+
     public WebDriver webDriver;
     public RegistrationPage registrationPage;
-    public Logger logger;
+    public Logger logger = Logger.getLogger(getClass());;
     private String pathToScreenShot;
     public Utils utils = new Utils();
-    public Faker faker;
+    public Faker faker = new Faker();
     private String browser;
-    private boolean isTestPass = false;
 
-//    public MainTest(String browser) {
-//        this.browser = browser;
-//    }
+    public MainTest(String browser) {
+        this.browser = browser;
+    }
 
         public MainTest() {}
 
-//    @Parameterized.Parameters
-//    public static Collection testData() throws IOException {
-//        return Arrays.asList(new Object[][]{
-//                {"chrome"},
-//                {"firefox"}
-//        });
-//    }
+    @Parameterized.Parameters
+    public static Collection testData() throws IOException {
+        return Arrays.asList(new Object[][]{
+                {"chrome"},
+                {"firefox"}
+        });
+    }
 
     @Rule
     public TestName testName = new TestName();
@@ -56,34 +58,32 @@ public class MainTest {
     @Before
     public void setUp() throws IOException{
 
+
+        MainPage mainPage = new MainPage(webDriver);
+
         //Setup browser
         if ("chrome".equals(browser)) {
             logger.info(browser + " will be started");
             File chromeFF = new File("./drivers/chromedriver");
             System.setProperty("webdriver.chrome.driver", chromeFF.getAbsolutePath());
             webDriver = new ChromeDriver();
-            logger.info(browser + " is started");
-            webDriver.manage().window().maximize();
-            webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        } else if ("firefox".equals(browser)){
+        }
+        else if ("firefox".equals(browser)){
             logger.info(browser + " will be started");
             File fireFox = new File("./drivers/geckodriver");
             System.setProperty("webdriver.gecko.driver", fireFox.getAbsolutePath());
             webDriver = new FirefoxDriver();
-            logger.info(browser + " is started");
-            webDriver.manage().window().maximize();
-            webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         }
+        logger.info(browser + " is started");
+        webDriver.manage().window().maximize();
+        webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         File file = new File("");
-        pathToScreenShot = file.getAbsolutePath() + "\\resources\\screenshot\\" +
-                this.getClass().getPackage().getName() + "\\" +
-                this.getClass().getSimpleName() + "\\" + this.testName.getMethodName() + ".png";
+        pathToScreenShot = file.getAbsolutePath() + "/resources/screenshot/" +
+                this.getClass().getPackage().getName() + "/" +
+                this.getClass().getSimpleName() + "/" + this.testName.getMethodName() + ".png";
 
         registrationPage = new RegistrationPage(webDriver);
-        faker = new Faker();
-        logger = Logger.getLogger(getClass());
-//        mainPage = new MainPage(webDriver);
 
         try{
             webDriver.get("http://automationpractice.com");
@@ -97,20 +97,15 @@ public class MainTest {
     @After
     public void tearDown(){
         if (!(webDriver == null)) {
-//            if (! isTestPass) {
-//                utils.screenShot(pathToScreenShot, webDriver);
-//            }
+
             utils.screenShot(pathToScreenShot, webDriver);
+            webDriver.manage().deleteAllCookies();
+            logger.info("Clear cookies");
+            webDriver.quit();
+            logger.info("Close browser");
         }
-        webDriver.manage().deleteAllCookies();
-        logger.info("Clear cookies");
-        webDriver.quit();
-        logger.info("Close browser");
     }
 
-    private void setTestPass() {
-        isTestPass = true;
-    }
 
     //Matcher => CoreMatchers
     public void checkAC(String message, boolean actualRes, boolean expectedRes){

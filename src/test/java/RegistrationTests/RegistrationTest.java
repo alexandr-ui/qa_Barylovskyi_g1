@@ -6,13 +6,11 @@ import pages.MainPage;
 
 public class RegistrationTest extends MainTest {
 
-//    public RegistrationTest(String browser) {
-//        super(browser);
-//    }
 
-//    public RegistrationTest(String browser) {
-//        super(browser);
-//    }
+
+    public RegistrationTest(String browser) {
+        super(browser);
+    }
 
     //String email = faker.internet().emailAddress();
 

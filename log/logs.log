@@ -895,3 +895,103 @@
 2021-16-08 21:18:24   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA Auto Home Work\resources\screenshot\RegistrationTests\RegistrationTest\testRegistrationValidByPageObj.png
 2021-16-08 21:18:24   INFO [RegistrationTest:72  ] : Clear cookies
 2021-16-08 21:18:24   INFO [RegistrationTest:74  ] : Close browser
+2021-22-08 16:56:33   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-22-08 16:56:33   INFO [GoogleTest:49  ] : Enter 'assert junit 4' in a search field
+2021-22-08 16:56:35   INFO [GoogleTest:51  ] : Click on 'Google Search' button
+2021-22-08 16:56:35   INFO [GoogleTest:40  ] : Clear cookies
+2021-22-08 16:56:35   INFO [GoogleTest:42  ] : Close browser
+2021-22-08 16:58:19   INFO [GoogleTest:28  ] : Open URL - https://google.com
+2021-22-08 16:58:19   INFO [GoogleTest:49  ] : Enter 'assert junit 4' in a search field
+2021-22-08 16:58:22   INFO [GoogleTest:51  ] : Click on 'Google Search' button
+2021-22-08 16:58:22   INFO [GoogleTest:40  ] : Clear cookies
+2021-22-08 16:58:22   INFO [GoogleTest:42  ] : Close browser
+2021-22-08 17:51:36   INFO [RegistrationTest:68  ] : chrome will be started
+2021-22-08 17:51:38   INFO [RegistrationTest:79  ] : chrome is started
+2021-22-08 17:51:43   INFO [RegistrationTest:91  ] : Open URL - http://automationpractice.com
+2021-22-08 17:51:43  ERROR [RegistrationPage:33  ] : Page can't be openedhttp://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-22-08 17:51:44   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest/testRegistrationValidByPageObj[0].png
+2021-22-08 17:51:44   INFO [RegistrationTest:104 ] : Clear cookies
+2021-22-08 17:51:44   INFO [RegistrationTest:106 ] : Close browser
+2021-22-08 17:51:44   INFO [RegistrationTest:74  ] : firefox will be started
+2021-22-08 17:51:46   INFO [RegistrationTest:79  ] : firefox is started
+2021-22-08 17:51:51   INFO [RegistrationTest:91  ] : Open URL - http://automationpractice.com
+2021-22-08 17:51:51  ERROR [RegistrationPage:33  ] : Page can't be openedhttp://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-22-08 17:51:52   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest/testRegistrationValidByPageObj[1].png
+2021-22-08 17:51:52   INFO [RegistrationTest:104 ] : Clear cookies
+2021-22-08 17:51:52   INFO [RegistrationTest:106 ] : Close browser
+2021-22-08 17:55:29   INFO [RegistrationTest:68  ] : chrome will be started
+2021-22-08 17:55:29   INFO [RegistrationTest:74  ] : firefox will be started
+2021-22-08 17:55:30   INFO [RegistrationTest:79  ] : chrome is started
+2021-22-08 17:55:31   INFO [RegistrationTest:79  ] : firefox is started
+2021-22-08 17:55:35   INFO [RegistrationTest:91  ] : Open URL - http://automationpractice.com
+2021-22-08 17:55:35  ERROR [RegistrationPage:33  ] : Page can't be openedhttp://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-22-08 17:55:36   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest/testRegistrationValidByPageObj[0].png
+2021-22-08 17:55:36   INFO [RegistrationTest:104 ] : Clear cookies
+2021-22-08 17:55:36   INFO [RegistrationTest:91  ] : Open URL - http://automationpractice.com
+2021-22-08 17:55:36  ERROR [RegistrationPage:33  ] : Page can't be openedhttp://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-22-08 17:55:36   INFO [RegistrationTest:106 ] : Close browser
+2021-22-08 17:55:37   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest/testRegistrationValidByPageObj[1].png
+2021-22-08 17:55:37   INFO [RegistrationTest:104 ] : Clear cookies
+2021-22-08 17:55:38   INFO [RegistrationTest:106 ] : Close browser
+2021-22-08 18:00:28   INFO [RegistrationTest:72  ] : firefox will be started
+2021-22-08 18:00:28   INFO [RegistrationTest:66  ] : chrome will be started
+2021-22-08 18:00:30   INFO [RegistrationTest:77  ] : chrome is started
+2021-22-08 18:00:31   INFO [RegistrationTest:77  ] : firefox is started
+2021-22-08 18:00:34   INFO [RegistrationTest:90  ] : Open URL - http://automationpractice.com
+2021-22-08 18:00:36   INFO [RegistrationTest:90  ] : Open URL - http://automationpractice.com
+2021-22-08 18:00:36   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-22-08 18:00:36  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-22-08 18:00:38   INFO [RegistrationPage:30  ] : Page was opened: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-22-08 18:00:38  ERROR [RegistrationPage:81  ] : Opened page: http://automationpractice.com
+2021-22-08 18:00:39   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on MAC (c132b67c5149be0a58130e7735b9a01b)] -> xpath: //a[@class='login']]
+2021-22-08 18:00:39   INFO [WebElements:32  ] : francoise.damore@yahoo.com was inputed
+2021-22-08 18:00:39   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on MAC (c132b67c5149be0a58130e7735b9a01b)] -> xpath: //button[@id='SubmitCreate']]
+2021-22-08 18:00:40   INFO [WebElements:48  ] : Element was clicked [[FirefoxDriver: firefox on MAC (74b5bde6-f92e-5b4d-9c63-008fd4f5665c)] -> xpath: //a[@class='login']]
+2021-22-08 18:00:40   INFO [WebElements:32  ] : lashunda.mraz@yahoo.com was inputed
+2021-22-08 18:00:40   INFO [WebElements:48  ] : Element was clicked [[FirefoxDriver: firefox on MAC (74b5bde6-f92e-5b4d-9c63-008fd4f5665c)] -> xpath: //button[@id='SubmitCreate']]
+2021-22-08 18:00:41   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on MAC (c132b67c5149be0a58130e7735b9a01b)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-22-08 18:00:41   INFO [WebElements:32  ] : Alex was inputed
+2021-22-08 18:00:41   INFO [WebElements:32  ] : Barilovsky was inputed
+2021-22-08 18:00:41   INFO [WebElements:32  ] : luis.klocko@yahoo.com was inputed
+2021-22-08 18:00:42   INFO [WebElements:32  ] : QWErty123 was inputed
+2021-22-08 18:00:42   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on MAC (c132b67c5149be0a58130e7735b9a01b)] -> id: newsletter]
+2021-22-08 18:00:42   INFO [RegistrationTest:30  ] : Choose 'Sign up for our newsletter!'
+2021-22-08 18:00:42   INFO [WebElements:48  ] : Element was clicked [[ChromeDriver: chrome on MAC (c132b67c5149be0a58130e7735b9a01b)] -> id: optin]
+2021-22-08 18:00:42   INFO [RegistrationTest:32  ] : Choose 'Receive special offers from our partners!'
+2021-22-08 18:00:42   INFO [WebElements:48  ] : Element was clicked [[FirefoxDriver: firefox on MAC (74b5bde6-f92e-5b4d-9c63-008fd4f5665c)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-22-08 18:00:42   INFO [WebElements:32  ] : Alex was inputed
+2021-22-08 18:00:42   INFO [WebElements:32  ] : Alex was inputed
+2021-22-08 18:00:42   INFO [WebElements:32  ] : Barilovsky was inputed
+2021-22-08 18:00:42   INFO [WebElements:32  ] : tari.quitzon@yahoo.com was inputed
+2021-22-08 18:00:42   INFO [WebElements:32  ] : QWErty123 was inputed
+2021-22-08 18:00:42   INFO [WebElements:32  ] : Barilovsky was inputed
+2021-22-08 18:00:42   INFO [WebElements:32  ] : Ocean Street 58 was inputed
+2021-22-08 18:00:42   INFO [WebElements:32  ] : Chicago was inputed
+2021-22-08 18:00:42   INFO [WebElements:48  ] : Element was clicked [[FirefoxDriver: firefox on MAC (74b5bde6-f92e-5b4d-9c63-008fd4f5665c)] -> id: newsletter]
+2021-22-08 18:00:42   INFO [RegistrationTest:30  ] : Choose 'Sign up for our newsletter!'
+2021-22-08 18:00:42   INFO [WebElements:73  ] : DropDown By Text was selected 13
+2021-22-08 18:00:43   INFO [WebElements:32  ] : 12345 was inputed
+2021-22-08 18:00:43   INFO [WebElements:48  ] : Element was clicked [[FirefoxDriver: firefox on MAC (74b5bde6-f92e-5b4d-9c63-008fd4f5665c)] -> id: optin]
+2021-22-08 18:00:43   INFO [RegistrationTest:32  ] : Choose 'Receive special offers from our partners!'
+2021-22-08 18:00:43   INFO [WebElements:32  ] : Alex was inputed
+2021-22-08 18:00:43   INFO [WebElements:73  ] : DropDown By Text was selected 21
+2021-22-08 18:00:43   INFO [WebElements:32  ] : Barilovsky was inputed
+2021-22-08 18:00:43   INFO [WebElements:32  ] : Ocean Street 58 was inputed
+2021-22-08 18:00:43   INFO [WebElements:32  ] : Chicago was inputed
+2021-22-08 18:00:43   INFO [WebElements:32  ] : 12345678 was inputed
+2021-22-08 18:00:43   INFO [WebElements:32  ] : foster.mosciski@gmail.com was inputed
+2021-22-08 18:00:43   INFO [WebElements:73  ] : DropDown By Text was selected 13
+2021-22-08 18:00:43   INFO [WebElements:32  ] : 12345 was inputed
+2021-22-08 18:00:43   INFO [WebElements:73  ] : DropDown By Text was selected 21
+2021-22-08 18:00:43   INFO [WebElements:32  ] : 12345678 was inputed
+2021-22-08 18:00:43   INFO [WebElements:32  ] : lanell.lowe@hotmail.com was inputed
+2021-22-08 18:00:55   INFO [WebElements:48  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-22-08 18:00:55   INFO [RegistrationTest:44  ] : Verify if account created
+2021-22-08 18:00:56   INFO [WebElements:48  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-22-08 18:00:56   INFO [RegistrationTest:44  ] : Verify if account created
+2021-22-08 18:00:56   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest/testRegistrationValidByPageObj[0].png
+2021-22-08 18:00:56   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest/testRegistrationValidByPageObj[1].png
+2021-22-08 18:00:56   INFO [RegistrationTest:103 ] : Clear cookies
+2021-22-08 18:00:56   INFO [RegistrationTest:103 ] : Clear cookies
+2021-22-08 18:00:56   INFO [RegistrationTest:105 ] : Close browser
+2021-22-08 18:00:56   INFO [RegistrationTest:105 ] : Close browser
