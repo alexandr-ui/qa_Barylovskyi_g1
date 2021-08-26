@@ -1586,3 +1586,122 @@
 2021-22-08 16:16:52   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork6.png
 2021-22-08 16:16:52   INFO [ HomeWork6:74  ] : Clear cookies
 2021-22-08 16:16:52   INFO [ HomeWork6:76  ] : Close browser
+2021-24-08 21:15:11   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-24-08 21:15:13   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (4aad06f573f90ac636b81d7ea7711d51)] -> xpath: //a[@class='login']]
+2021-24-08 21:15:13   INFO [WebElements:30  ] : emely.abernathy@gmail.com was inputed
+2021-24-08 21:15:13   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (4aad06f573f90ac636b81d7ea7711d51)] -> xpath: //button[@id='SubmitCreate']]
+2021-24-08 21:15:14   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-24-08 21:15:14   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-24-08 21:15:15   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-24-08 21:15:15   INFO [WebElements:30  ] : zella.friesen@hotmail.com was inputed
+2021-24-08 21:15:15   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-24-08 21:15:15   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-24-08 21:15:25  ERROR [WebElements:94  ] : Can't work with DropDown
+2021-24-08 21:15:25   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-24-08 21:15:25   INFO [RegistrationTest:88  ] : Clear cookies
+2021-24-08 21:15:26   INFO [RegistrationTest:90  ] : Close browser
+2021-24-08 21:19:26   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-24-08 21:19:28   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (eeabde9b1bf3e1fae67af249d3c5f8e8)] -> xpath: //a[@class='login']]
+2021-24-08 21:19:28   INFO [WebElements:30  ] : willard.strosin@yahoo.com was inputed
+2021-24-08 21:19:29   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (eeabde9b1bf3e1fae67af249d3c5f8e8)] -> xpath: //button[@id='SubmitCreate']]
+2021-24-08 21:19:30   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-24-08 21:19:30   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-24-08 21:19:30   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-24-08 21:19:30   INFO [WebElements:30  ] : shasta.cronin@hotmail.com was inputed
+2021-24-08 21:19:30   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-24-08 21:19:31   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-24-08 21:19:31   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-24-08 21:19:31   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-24-08 21:19:31   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-24-08 21:19:31   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-24-08 21:19:31   INFO [WebElements:30  ] : Apple was inputed
+2021-24-08 21:19:31   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-24-08 21:19:31   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-24-08 21:19:31   INFO [WebElements:30  ] : Chicago was inputed
+2021-24-08 21:19:31   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-24-08 21:19:32   INFO [WebElements:30  ] : 12345 was inputed
+2021-24-08 21:19:32   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-24-08 21:19:32   INFO [WebElements:30  ] : 123456789 was inputed
+2021-24-08 21:19:32   INFO [WebElements:30  ] : Hello! was inputed
+2021-24-08 21:19:44   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-24-08 21:19:44   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-24-08 21:19:44   INFO [RegistrationTest:88  ] : Clear cookies
+2021-24-08 21:19:44   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 20:17:14   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 20:17:19   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (a0205349f41ba5528c187105f97c5b2c)] -> xpath: //a[@class='login']]
+2021-26-08 20:17:19   INFO [WebElements:30  ] : jude.smitham@gmail.com was inputed
+2021-26-08 20:17:19   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (a0205349f41ba5528c187105f97c5b2c)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 20:17:23   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-26-08 20:17:23   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 20:17:23   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 20:17:24   INFO [WebElements:30  ] : josue.stamm@hotmail.com was inputed
+2021-26-08 20:17:24   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 20:17:24   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-26-08 20:17:24   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-26-08 20:17:24   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-26-08 20:17:24   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 20:17:24   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 20:17:24   INFO [WebElements:30  ] : Apple was inputed
+2021-26-08 20:17:24   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 20:17:25   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-26-08 20:17:25   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 20:17:25   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 20:17:25   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 20:17:25   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 20:17:25   INFO [WebElements:30  ] : 123456789 was inputed
+2021-26-08 20:17:25   INFO [WebElements:30  ] : Hello! was inputed
+2021-26-08 20:17:43   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 20:17:43   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 20:17:43   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 20:17:43   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 20:19:42   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 20:19:51   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (e9ddbf34b7784636aad3118ef830d13d)] -> xpath: //a[@class='login']]
+2021-26-08 20:19:52   INFO [WebElements:30  ] : leslie.hyatt@gmail.com was inputed
+2021-26-08 20:19:52   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (e9ddbf34b7784636aad3118ef830d13d)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 20:19:55   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-26-08 20:19:55   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 20:19:55   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 20:19:55   INFO [WebElements:30  ] : don.koelpin@gmail.com was inputed
+2021-26-08 20:19:56   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 20:19:56   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-26-08 20:19:56   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-26-08 20:19:56   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-26-08 20:19:56   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 20:19:56   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 20:19:56   INFO [WebElements:30  ] : Apple was inputed
+2021-26-08 20:19:56   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 20:19:56   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-26-08 20:19:57   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 20:19:57   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 20:19:57   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 20:19:57   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 20:19:57   INFO [WebElements:30  ] : 123456789 was inputed
+2021-26-08 20:19:57   INFO [WebElements:30  ] : Hello! was inputed
+2021-26-08 20:20:12   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 20:20:12   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 20:20:12   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 20:20:13   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 20:31:24   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 20:31:24   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 20:31:36   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (36195089196407e0cf6318fe4a32edda)] -> xpath: //a[@class='login']]
+2021-26-08 20:31:36   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (9e7ddb42e13f4cb3de2ba8b5a1a05301)] -> xpath: //a[@class='login']]
+2021-26-08 20:31:44   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (9e7ddb42e13f4cb3de2ba8b5a1a05301)] -> xpath: //a[@class='login']]
+2021-26-08 20:31:44   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (36195089196407e0cf6318fe4a32edda)] -> xpath: //a[@class='login']]
+2021-26-08 20:31:44   INFO [WebElements:30  ] : basil.fadel@gmail.com was inputed
+2021-26-08 20:31:44   INFO [WebElements:30  ] : cassondra.hills@yahoo.com was inputed
+2021-26-08 20:31:44   INFO [WebElements:30  ] : winona.feest@hotmail.com was inputed
+2021-26-08 20:31:44   INFO [WebElements:30  ] : gayle.weissnat@gmail.com was inputed
+2021-26-08 20:31:45   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (9e7ddb42e13f4cb3de2ba8b5a1a05301)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 20:31:45   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (36195089196407e0cf6318fe4a32edda)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 20:31:55   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (9e7ddb42e13f4cb3de2ba8b5a1a05301)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 20:31:55   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (36195089196407e0cf6318fe4a32edda)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 20:32:05  ERROR [WebElements:69  ] : Can't work with Element Mr.
+2021-26-08 20:32:05  ERROR [WebElements:69  ] : Can't work with Element Mr.
+2021-26-08 20:32:15  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]'
+2021-26-08 20:32:15  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]'
+2021-26-08 20:32:25   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 20:32:25   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 20:32:25   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 20:32:25   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 20:32:25   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 20:32:25   INFO [RegistrationTest:90  ] : Close browser
