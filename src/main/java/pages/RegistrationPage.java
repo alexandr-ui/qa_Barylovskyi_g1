@@ -1,22 +1,23 @@
 package pages;
 
+import model.Account;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class RegistrationPage extends MainPage{
 
-    @FindBy(xpath = "//a[@class='login']")
-    private WebElement loginInput;
-
-    @FindBy(id = "email_create")
-    private WebElement emailCreateInput;
-
     @FindBy(xpath = "//button[@id='SubmitCreate']")
     private WebElement submitButtonCreate;
 
     @FindBy(xpath = "//form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]")
     public WebElement formAccount;
+
+    @FindBy(id = "id_gender1")
+    public WebElement genderMr;
+
+    @FindBy(id = "id_gender2")
+    public WebElement genderMrs;
 
     @FindBy(id = "customer_firstname")
     public WebElement customerFirstNameInput;
@@ -30,6 +31,15 @@ public class RegistrationPage extends MainPage{
     @FindBy(id = "passwd")
     public WebElement passwordInput;
 
+    @FindBy(id = "days")
+    public WebElement dayDropDown;
+
+    @FindBy(id = "months")
+    public WebElement monthDropDown;
+
+    @FindBy(id = "years")
+    public WebElement yearDropDown;
+
     @FindBy(id = "newsletter")
     public WebElement checkboxNewsLetter;
 
@@ -42,8 +52,14 @@ public class RegistrationPage extends MainPage{
     @FindBy(xpath = "//input[@id='lastname']")
     public WebElement lastNameInput;
 
-    @FindBy(xpath = "//input[@id='address1']")
-    public WebElement streetInput;
+    @FindBy(id = "company")
+    public WebElement companyName;
+
+    @FindBy(id = "address1")
+    public WebElement addressByDefault;
+
+    @FindBy(id = "address2")
+    public WebElement addressLine;
 
     @FindBy(xpath = "//input[@id='city']")
     public WebElement cityInput;
@@ -66,33 +82,8 @@ public class RegistrationPage extends MainPage{
     @FindBy(id = "submitAccount")
     public WebElement submitAccount;
 
-    @FindBy(xpath = "//div[@id='center_column']/h1")
-    public WebElement titleRegisteredAccount;
-
     public RegistrationPage(WebDriver webDriver) {
         super(webDriver);
-    }
-
-    public void openRegistrationPage(){
-        openUrl("http://automationpractice.com/index.php?controller=authentication&back=my-account");
-        logger.info("Opened page: http://automationpractice.com");
-    }
-
-    /**
-     *Method click to SignIn Page
-     * */
-
-    public void clickSignIn(){
-        webElements.clickOnElement(loginInput);
-    }
-
-    /**
-     * Method input email
-     * @param email
-     * */
-
-    public void InputEmailCreate(String email) {
-        webElements.inputText(emailCreateInput, email);
     }
 
     /**
@@ -104,6 +95,14 @@ public class RegistrationPage extends MainPage{
 
     public void inputFormAccount(){
         webElements.clickOnElement(formAccount);
+    }
+
+    public void selectGender(String gender) {
+        if (gender.equals("Mr.")) {
+            webElements.clickRadioButton(genderMr, gender);
+        } else {
+            webElements.clickRadioButton(genderMrs, gender);
+        }
     }
 
     public void inputCustomerFirstName(String firstName){
@@ -122,6 +121,18 @@ public class RegistrationPage extends MainPage{
         webElements.inputText(passwordInput, password);
     }
 
+    public void selectBirthDay(String day) {
+        webElements.selectTextInDropDownByValue(dayDropDown, day);
+    }
+
+    public void selectBirthMonth(String month) {
+        webElements.selectTextInDropDownByValue(monthDropDown, month);
+    }
+
+    public void selectBirthYear(String year) {
+        webElements.selectTextInDropDownByValue(yearDropDown, year);
+    }
+
     public void clickCheckboxNewsLetter() {
         webElements.clickOnElement(checkboxNewsLetter);
     }
@@ -138,8 +149,20 @@ public class RegistrationPage extends MainPage{
         webElements.inputText(lastNameInput, lastName);
     }
 
+    public void inputCompany(String company) {
+        webElements.inputText(companyName, company);
+    }
+
+    public void inputAddressByDefault(String address) {
+        webElements.inputText(addressByDefault, address);
+    }
+
+    public void inputAddressLine(String address) {
+        webElements.inputText(addressLine, address);
+    }
+
     public void inputStreet(String street){
-        webElements.inputText(streetInput, street);
+        webElements.inputText(addressByDefault, street);
     }
 
     public void inputCity(String city) {
@@ -147,13 +170,6 @@ public class RegistrationPage extends MainPage{
     }
 
     public void selectState(String value){
-//        try{
-//            Select state = new Select(selectStateByValue);
-//            state.selectByValue("13");
-//            logger.info("State '13' is selected");
-//        } catch(Exception e){
-//            logger.error("State can't be selected");
-//        }
         webElements.selectTextInDropDownByValue(selectStateByValue, value);
     }
 
@@ -186,6 +202,28 @@ public class RegistrationPage extends MainPage{
 
     public void isDisplayedTextByXpath(String text) {
         webElements.isElementPresent(text);
+    }
+
+    public void registrationUser(Account account) {
+        selectGender(account.getGender());
+        inputCustomerFirstName(account.getFirstCustomerName());
+        inputCustomerLastName(account.getLastCustomerName());
+        inputEmail(account.getEmail());
+        inputPassword(account.getPass());
+        selectBirthDay(account.getDay());
+        selectBirthMonth(account.getMonth());
+        selectBirthYear(account.getYear());
+        inputFirstName(account.getFirstName());
+        inputLastName(account.getLastName());
+        inputCompany(account.getCompany());
+        inputAddressByDefault(account.getAddress1());
+        inputAddressLine(account.getAddress2());
+        inputCity(account.getCity());
+        selectState(account.getState());
+        inputPostCode(account.getPostcode());
+        selectCountry(account.getCountry());
+        inputPhoneNumber(account.getPhone_mobile());
+        inputAlias(account.getAlias());
     }
 
 

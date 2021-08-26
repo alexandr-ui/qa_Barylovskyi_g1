@@ -20,7 +20,7 @@ public class WebElements {
 
     /**
      * Method inputs text to WebElement
-     * @param element
+     * @param  element
      * @param text
      * */
     public void inputText(WebElement element, String text) {
@@ -50,6 +50,27 @@ public class WebElements {
         }
     }
 
+    /**
+     * Method click element Radio button
+     * @param element
+     * @param text
+     * */
+    public void clickRadioButton(WebElement element, String text) {
+        try{
+            boolean status = element.isDisplayed();
+            if (status) {
+                logger.info("Checkbox is initially checked");
+            } else {
+                element.click();
+                logger.info("Element has been clicked " + text);
+            }
+
+        } catch(Exception e) {
+            logger.error("Can't work with Element " + text);
+            Assert.fail("Can't work with Element " + text);
+        }
+    }
+
     public boolean isElementPresent(String locatorWithText) {
         try {
             return webDriver.findElement(By.xpath(locatorWithText)).isDisplayed();
@@ -68,7 +89,7 @@ public class WebElements {
             Select optionsFromDropDown = new Select(dropdown);
 //            optionsFromDropDown.selectByVisibleText(text);
             optionsFromDropDown.selectByValue(text);
-            logger.info("DropDown By Text was selected " + text);
+            logger.info("DropDown By Value was selected " + text);
         } catch (Exception e) {
             logger.error("Can't work with DropDown");
             Assert.fail("Can't work with DropDown");
