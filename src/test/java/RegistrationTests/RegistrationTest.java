@@ -4,10 +4,30 @@ import MainTests.MainTest;
 import dataproviders.RegistrationPageDataProvider;
 import model.Account;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
 public class RegistrationTest extends MainTest {
+
+    @BeforeMethod
+    public void SetUpLink() {
+        try{
+            webDriver.get("http://automationpractice.com");
+            logger.info("Open URL - http://automationpractice.com");
+        } catch(Exception e){
+            logger.error("Can't open browser");
+            Assert.fail("Can't open browser");
+        }
+    }
+
+    @AfterMethod
+    public void ClearCookies() {
+        webDriver.manage().deleteAllCookies();
+        logger.info("Clear cookies");
+    }
+
 
     @Test
     public void testRegistrationValidByPageObj(){
@@ -38,8 +58,7 @@ public class RegistrationTest extends MainTest {
         myAccountPage.titleRegisteredAccount.isDisplayed();
         myAccountPage.getHeaderName("My account");
         logger.info("Verify if account created");
-//        checkAC("Text is present",
-//                registrationPage.titleRegisteredAccount.isDisplayed(), true);
+
     }
 
     @Test(dataProvider = "registerNewUser", dataProviderClass = RegistrationPageDataProvider.class)

@@ -8,16 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
 import org.testng.ITestContext;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
-import pages.ContactUsPage;
-import pages.MyAccountPage;
-import pages.RegistrationPage;
-import pages.SignInPage;
+import org.testng.annotations.*;
+import pages.*;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -28,6 +21,7 @@ public class MainTest {
     public WebDriver webDriver;
     public RegistrationPage registrationPage;
     public ContactUsPage contactUsPage;
+    public ConverterPage converterPage;
     public SignInPage signInPage;
     public MyAccountPage myAccountPage;
     public Logger logger;
@@ -57,6 +51,7 @@ public class MainTest {
 
         registrationPage = new RegistrationPage(webDriver);
         contactUsPage = new ContactUsPage(webDriver);
+        converterPage = new ConverterPage(webDriver);
         signInPage = new SignInPage(webDriver);
         myAccountPage = new MyAccountPage(webDriver);
 
@@ -70,13 +65,13 @@ public class MainTest {
                 this.getClass().getSimpleName() + ".png";
 
 
-        try{
-            webDriver.get("http://automationpractice.com");
-            logger.info("Open URL - http://automationpractice.com");
-        } catch(Exception e){
-            logger.error("Can't open browser");
-            Assert.fail("Can't open browser");
-        }
+//        try{
+//            webDriver.get("http://automationpractice.com");
+//            logger.info("Open URL - http://automationpractice.com");
+//        } catch(Exception e){
+//            logger.error("Can't open browser");
+//            Assert.fail("Can't open browser");
+//        }
     }
 
 
@@ -90,7 +85,6 @@ public class MainTest {
             logger.info("Close browser");
         }
     }
-
 
 }
 
