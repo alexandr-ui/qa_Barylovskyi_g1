@@ -102,12 +102,33 @@ public class WebElements {
         } catch (Exception e) {
             return false;
         }
+
     }
 
     public void checkTextInElement(WebElement element, String text) {
         try {
             String textFormElement = element.getText();
             Assert.assertEquals(textFormElement, text);
+        } catch (Exception e) {
+            logger.error("In element can't check text " + text);
+            Assert.fail("In element can't check text " + text);
+        }
+    }
+
+    public void verifyTextIsPresent(WebElement element, String text) {
+        try {
+            String textFormElement = element.getText();
+            Assert.assertTrue(textFormElement.contains(text));
+        } catch (Exception e) {
+            logger.error("In element can't check text " + text);
+            Assert.fail("In element can't check text " + text);
+        }
+    }
+
+    public void verifyValueIsPresent(WebElement element, String text) {
+        try {
+            String textFormElement = element.getAttribute("value");
+            Assert.assertTrue(textFormElement.contains(text));
         } catch (Exception e) {
             logger.error("In element can't check text " + text);
             Assert.fail("In element can't check text " + text);

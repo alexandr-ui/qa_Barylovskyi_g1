@@ -1705,3 +1705,571 @@
 2021-26-08 20:32:25   INFO [RegistrationTest:88  ] : Clear cookies
 2021-26-08 20:32:25   INFO [RegistrationTest:90  ] : Close browser
 2021-26-08 20:32:25   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 21:01:27   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 21:01:27   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 21:01:31   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (2210cfea5fc193713bb0f435b39cb743)] -> xpath: //a[@class='login']]
+2021-26-08 21:01:31   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (9f4f264d8ff8e2e190cbc12357134e01)] -> xpath: //a[@class='login']]
+2021-26-08 21:01:33   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (9f4f264d8ff8e2e190cbc12357134e01)] -> xpath: //a[@class='login']]
+2021-26-08 21:01:34   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (2210cfea5fc193713bb0f435b39cb743)] -> xpath: //a[@class='login']]
+2021-26-08 21:01:34   INFO [WebElements:30  ] : rolanda.rutherford@hotmail.com was inputed
+2021-26-08 21:01:34   INFO [WebElements:30  ] : philomena.considine@yahoo.com was inputed
+2021-26-08 21:01:34   INFO [WebElements:30  ] : ronald.denesik@hotmail.com was inputed
+2021-26-08 21:01:34   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (9f4f264d8ff8e2e190cbc12357134e01)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:01:34   INFO [WebElements:30  ] : steve.schuster@gmail.com was inputed
+2021-26-08 21:01:34   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (2210cfea5fc193713bb0f435b39cb743)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:01:44   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (9f4f264d8ff8e2e190cbc12357134e01)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:01:44   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (2210cfea5fc193713bb0f435b39cb743)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:01:54  ERROR [WebElements:69  ] : Can't work with Element Mr.
+2021-26-08 21:01:54  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]'
+2021-26-08 21:02:04  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]'
+2021-26-08 21:02:04  ERROR [WebElements:69  ] : Can't work with Element Mr.
+2021-26-08 21:02:15   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 21:02:15   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 21:02:15   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 21:02:15   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 21:02:15   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 21:03:57   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 21:03:57   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 21:03:59   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (cb419bd450049ba42074033eca24ed54)] -> xpath: //a[@class='login']]
+2021-26-08 21:03:59   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (df00aeadbdd2df348e53f87396b00c62)] -> xpath: //a[@class='login']]
+2021-26-08 21:03:59   INFO [WebElements:30  ] : randy.quitzon@hotmail.com was inputed
+2021-26-08 21:03:59   INFO [WebElements:30  ] : rodrick.hand@hotmail.com was inputed
+2021-26-08 21:04:00   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (cb419bd450049ba42074033eca24ed54)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:04:00   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (df00aeadbdd2df348e53f87396b00c62)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:04:01   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-26-08 21:04:01   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-26-08 21:04:01   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:04:01   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:04:01   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:04:02   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:04:02   INFO [WebElements:30  ] : sharyl.lebsack@gmail.com was inputed
+2021-26-08 21:04:02   INFO [WebElements:30  ] : alex.bayer@hotmail.com was inputed
+2021-26-08 21:04:02   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 21:04:02   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 21:04:02   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-26-08 21:04:02   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-26-08 21:04:02   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-26-08 21:04:02   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-26-08 21:04:02   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-26-08 21:04:02   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Apple was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Apple was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 21:04:03   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 21:04:03   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 21:04:03   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 21:04:03   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 21:04:03   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 21:04:03   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 21:04:03   INFO [WebElements:30  ] : 123456789 was inputed
+2021-26-08 21:04:04   INFO [WebElements:30  ] : 123456789 was inputed
+2021-26-08 21:04:04   INFO [WebElements:30  ] : Hello! was inputed
+2021-26-08 21:04:04   INFO [WebElements:30  ] : Hello! was inputed
+2021-26-08 21:04:16   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 21:04:16   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 21:04:16   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 21:04:16   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 21:04:16   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 21:04:16   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 21:04:16   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 21:04:16   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 21:06:44   INFO [RegistrationTest:75  ] : Open URL - http://automationpractice.com
+2021-26-08 21:06:47   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (83d4cacda3e6d6177b081be6272ba465)] -> xpath: //a[@class='login']]
+2021-26-08 21:06:47   INFO [WebElements:30  ] : temple.littel@hotmail.com was inputed
+2021-26-08 21:06:47   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (83d4cacda3e6d6177b081be6272ba465)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:06:49   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-26-08 21:06:49   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:06:49   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:06:49   INFO [WebElements:30  ] : adrienne.reilly@yahoo.com was inputed
+2021-26-08 21:06:49   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 21:06:50   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-26-08 21:06:50   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-26-08 21:06:50   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-26-08 21:06:50   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:06:50   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:06:50   INFO [WebElements:30  ] : Apple was inputed
+2021-26-08 21:06:50   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 21:06:50   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-26-08 21:06:50   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 21:06:50   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 21:06:51   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 21:06:51   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 21:06:51   INFO [WebElements:30  ] : 123456789 was inputed
+2021-26-08 21:06:51   INFO [WebElements:30  ] : Hello! was inputed
+2021-26-08 21:07:03   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 21:07:23  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2021-26-08 21:07:34   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 21:07:34   INFO [RegistrationTest:88  ] : Clear cookies
+2021-26-08 21:07:34   INFO [RegistrationTest:90  ] : Close browser
+2021-26-08 21:11:17   INFO [RegistrationTest:72  ] : Open URL - http://automationpractice.com
+2021-26-08 21:11:20   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5deec9ce74179e9f03c62a977b586652)] -> xpath: //a[@class='login']]
+2021-26-08 21:11:21   INFO [WebElements:30  ] : shay.crona@hotmail.com was inputed
+2021-26-08 21:11:21   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5deec9ce74179e9f03c62a977b586652)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:11:23   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-26-08 21:11:23   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:11:23   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:11:24   INFO [WebElements:30  ] : eli.jones@yahoo.com was inputed
+2021-26-08 21:11:24   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 21:11:24   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-26-08 21:11:24   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-26-08 21:11:24   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-26-08 21:11:24   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:11:24   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:11:24   INFO [WebElements:30  ] : Apple was inputed
+2021-26-08 21:11:24   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 21:11:24   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-26-08 21:11:25   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 21:11:25   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 21:11:25   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 21:11:25   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 21:11:25   INFO [WebElements:30  ] : 123456789 was inputed
+2021-26-08 21:11:25   INFO [WebElements:30  ] : Hello! was inputed
+2021-26-08 21:11:39   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 21:11:59  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2021-26-08 21:12:09   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 21:12:09   INFO [RegistrationTest:96  ] : Clear cookies
+2021-26-08 21:12:09   INFO [RegistrationTest:98  ] : Close browser
+2021-26-08 21:31:10   INFO [RegistrationTest:72  ] : Open URL - http://automationpractice.com
+2021-26-08 21:31:13   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (74c0bd7ab9c1840aceaca0650f562fde)] -> xpath: //a[@class='login']]
+2021-26-08 21:31:14   INFO [WebElements:30  ] : shannon.luettgen@hotmail.com was inputed
+2021-26-08 21:31:14   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (74c0bd7ab9c1840aceaca0650f562fde)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:31:16   INFO [WebElements:65  ] : Element has been clicked Mr.
+2021-26-08 21:31:16   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:31:16   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:31:16   INFO [WebElements:30  ] : andrea.haley@hotmail.com was inputed
+2021-26-08 21:31:16   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 21:31:16   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-26-08 21:31:17   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-26-08 21:31:17   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-26-08 21:31:17   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:31:17   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:31:17   INFO [WebElements:30  ] : Apple was inputed
+2021-26-08 21:31:17   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 21:31:17   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-26-08 21:31:17   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 21:31:17   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 21:31:17   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 21:31:17   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 21:31:17   INFO [WebElements:30  ] : 123456789 was inputed
+2021-26-08 21:31:17   INFO [WebElements:30  ] : Hello! was inputed
+2021-26-08 21:31:29   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 21:31:50  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //a[@class='login']'
+2021-26-08 21:32:00   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 21:32:00   INFO [RegistrationTest:85  ] : Clear cookies
+2021-26-08 21:32:00   INFO [RegistrationTest:87  ] : Close browser
+2021-26-08 21:51:17   INFO [RegistrationTest:18  ] : Open URL - http://automationpractice.com
+2021-26-08 21:51:19   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5c606f6a529d47f515916bee3b4555d1)] -> xpath: //a[@class='login']]
+2021-26-08 21:51:19   INFO [WebElements:30  ] : gerry.von@yahoo.com was inputed
+2021-26-08 21:51:19   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5c606f6a529d47f515916bee3b4555d1)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:51:21   INFO [WebElements:62  ] : Checkbox is initially checked
+2021-26-08 21:51:21   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:51:21   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:51:21   INFO [WebElements:30  ] : arturo.ryan@gmail.com was inputed
+2021-26-08 21:51:22   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 21:51:22   INFO [WebElements:92  ] : DropDown By Value was selected 23
+2021-26-08 21:51:22   INFO [WebElements:92  ] : DropDown By Value was selected 3
+2021-26-08 21:51:22   INFO [WebElements:92  ] : DropDown By Value was selected 1993
+2021-26-08 21:51:22   INFO [WebElements:30  ] : Oleksandr was inputed
+2021-26-08 21:51:22   INFO [WebElements:30  ] : Barylovskyi was inputed
+2021-26-08 21:51:22   INFO [WebElements:30  ] : Apple was inputed
+2021-26-08 21:51:22   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 21:51:22   INFO [WebElements:30  ] : Ocean Street 85 was inputed
+2021-26-08 21:51:22   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 21:51:23   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 21:51:23   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 21:51:23   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 21:51:23   INFO [WebElements:30  ] : 123456789 was inputed
+2021-26-08 21:51:23   INFO [WebElements:30  ] : Hello! was inputed
+2021-26-08 21:51:39   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 21:51:39   INFO [RegistrationTest:28  ] : Clear cookies
+2021-26-08 21:51:43   INFO [RegistrationTest:18  ] : Open URL - http://automationpractice.com
+2021-26-08 21:51:52   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5c606f6a529d47f515916bee3b4555d1)] -> xpath: //a[@class='login']]
+2021-26-08 21:51:52   INFO [WebElements:30  ] : marget.dickinson@yahoo.com was inputed
+2021-26-08 21:51:52   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5c606f6a529d47f515916bee3b4555d1)] -> xpath: //button[@id='SubmitCreate']]
+2021-26-08 21:51:58   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5c606f6a529d47f515916bee3b4555d1)] -> xpath: //form[@id='account-creation_form']/div[@class='account_creation']/div[1]/div[1]]
+2021-26-08 21:51:58   INFO [WebElements:30  ] : Alex was inputed
+2021-26-08 21:51:58   INFO [WebElements:30  ] : Barilovsky was inputed
+2021-26-08 21:51:58   INFO [WebElements:30  ] : leroy.hahn@gmail.com was inputed
+2021-26-08 21:51:58   INFO [WebElements:30  ] : QWErty123 was inputed
+2021-26-08 21:51:58   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5c606f6a529d47f515916bee3b4555d1)] -> id: newsletter]
+2021-26-08 21:51:58   INFO [RegistrationTest:44  ] : Choose 'Sign up for our newsletter!'
+2021-26-08 21:51:58   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5c606f6a529d47f515916bee3b4555d1)] -> id: optin]
+2021-26-08 21:51:58   INFO [RegistrationTest:46  ] : Choose 'Receive special offers from our partners!'
+2021-26-08 21:51:59   INFO [WebElements:30  ] : Alex was inputed
+2021-26-08 21:51:59   INFO [WebElements:30  ] : Barilovsky was inputed
+2021-26-08 21:51:59   INFO [WebElements:30  ] : Ocean Street 58 was inputed
+2021-26-08 21:51:59   INFO [WebElements:30  ] : Chicago was inputed
+2021-26-08 21:51:59   INFO [WebElements:92  ] : DropDown By Value was selected 13
+2021-26-08 21:51:59   INFO [WebElements:30  ] : 12345 was inputed
+2021-26-08 21:51:59   INFO [WebElements:92  ] : DropDown By Value was selected 21
+2021-26-08 21:51:59   INFO [WebElements:30  ] : 12345678 was inputed
+2021-26-08 21:51:59   INFO [WebElements:30  ] : sommer.botsford@gmail.com was inputed
+2021-26-08 21:52:22   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.id: submitAccount'
+2021-26-08 21:52:22   INFO [RegistrationTest:60  ] : Verify if account created
+2021-26-08 21:52:22   INFO [RegistrationTest:28  ] : Clear cookies
+2021-26-08 21:52:23   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/RegistrationTests/RegistrationTest.png
+2021-26-08 21:52:23   INFO [RegistrationTest:85  ] : Clear cookies
+2021-26-08 21:52:23   INFO [RegistrationTest:87  ] : Close browser
+2021-04-09 00:10:58   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-04-09 00:10:58   INFO [ConverterPage:25  ] : Opened page: https://finance.i.ua/
+2021-04-09 00:10:59  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (4c1ea5048612e5e6a7a1946b39452d3e)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 00:11:01   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:11:01   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:11:01   INFO [ HomeWork7:86  ] : Close browser
+2021-04-09 00:14:29   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-04-09 00:14:30  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (a4a599a26297bd6e5b4e42d2c54f87c7)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 00:14:32   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:14:32   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:14:32   INFO [ HomeWork7:86  ] : Close browser
+2021-04-09 00:15:43   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-04-09 00:15:44  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (c936ee0b4d68f6742ba3d19a2d4a75c7)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 00:15:46   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:15:46   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:15:46   INFO [ HomeWork7:86  ] : Close browser
+2021-04-09 00:18:07   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-04-09 00:18:08  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (36819ab6324bb88ffbf44563737a3325)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 00:18:10   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:18:10   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:18:10   INFO [ HomeWork7:86  ] : Close browser
+2021-04-09 00:22:02   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-04-09 00:22:13   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:22:13   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:22:13   INFO [ HomeWork7:86  ] : Close browser
+2021-04-09 00:24:44   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-04-09 00:25:04  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-04-09 00:25:15   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:25:16   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:25:16   INFO [ HomeWork7:86  ] : Close browser
+2021-04-09 00:30:58   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 00:31:18  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-04-09 00:31:29   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:31:30   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:31:30   INFO [ HomeWork7:86  ] : Close browser
+2021-04-09 00:33:13   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 00:33:15  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (bdfb36cb245a8f9f98a2e00d7de2eca3)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 00:33:16   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:33:17   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:33:17   INFO [ HomeWork7:86  ] : Close browser
+2021-04-09 00:34:48   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 00:34:50  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (79214fffae1213c803292c8235ffb523)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 00:34:51   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:34:52   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:42:15   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 00:42:27   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:42:27   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 00:43:43   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 00:43:54   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 00:43:54   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 12:37:41   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 12:37:52   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 12:37:52   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 12:53:12   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 12:53:32  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-04-09 12:53:43   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 12:53:43   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 13:00:48   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 13:00:58   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='admixer_rm_finance']/div[2]/iframe[1]'
+2021-04-09 13:01:01   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (0f53561b3d6096d4b5302850008e307d)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 13:01:03   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 13:01:03   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 13:03:56   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 13:04:16  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: /html[1]/body[1]/center[1]/div[2]/div[1]/div[2]'
+2021-04-09 13:04:27   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 13:04:27   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 13:05:58   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 13:06:19  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //body/center[1]/div[2]/div[1]/div[2]'
+2021-04-09 13:06:30   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 13:06:30   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 14:09:32   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 14:09:52  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-04-09 14:10:03   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 14:10:03   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 14:10:18   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 14:10:38  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-04-09 14:10:43   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 14:10:43   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 14:11:32   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 14:11:52  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //body/center[1]/div[2]/div[1]/div[2]'
+2021-04-09 14:12:03   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 14:12:03   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 14:13:02   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 14:13:04   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (3d383bbc47be9c5206c7bfa66aa71fb2)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 14:13:06   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 14:13:06   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 14:13:47   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 14:13:50   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (8e8985f6c7287cd4a1fce7b030aaecaf)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 14:13:52   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 14:13:52   INFO [ HomeWork7:84  ] : Clear cookies
+2021-04-09 14:14:37   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-04-09 14:14:41   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (035ec7d9988edef973349635a4d225b8)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-04-09 14:14:42   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-04-09 14:14:42   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:06:26   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:06:27  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (373306b2a5412657ee94bfd359427c57)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-05-09 11:06:28   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 11:06:28   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:10:02   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:10:03  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (fd15927242d8289c2e2622e7a8569fea)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-05-09 11:10:04   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 11:10:05   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:14:14   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:14:34  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //body/center[1]/div[2]/div[1]/div[2]'
+2021-05-09 11:14:50   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:15:10  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //body/center[1]/div[2]/div[1]/div[2]'
+2021-05-09 11:15:21   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 11:15:21   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:24:53   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:24:54   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 11:24:54   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:50:38   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:50:39   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 11:50:39   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:52:05   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:52:07   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 11:52:07   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:53:20   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:53:34   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 11:53:34   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:55:41   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:55:53   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 11:55:53   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 11:59:31   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 11:59:51  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //body/center[1]/div[2]/div[1]/div[2]'
+2021-05-09 12:00:03   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:00:03   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:03:19   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:03:39  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //body/div[@id='admixer_rm_finance']/div[2]/iframe[1]'
+2021-05-09 12:05:23   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:05:53   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:06:13  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 12:06:25   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:06:25   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:07:45   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:07:56   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:07:56   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:08:30   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:08:41   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:08:41   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:10:02   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:10:14   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:10:14   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:11:08   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:11:28  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 12:11:39   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:11:39   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:12:03   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:12:34  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 12:12:45   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:12:45   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:13:07   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 12:13:38  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 12:13:49   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:13:49   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:14:31   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 12:15:01  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 12:15:13   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:15:13   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:15:49   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 12:16:12   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (fcf81270c15c87ed86518600bd833722)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-05-09 12:16:22  ERROR [WebElements:123 ] : In element can't check text Конвертер валют онлайн 
+2021-05-09 12:16:24   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:16:24   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:18:19   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 12:18:43   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (8d4996fbc97c3d113dde0fb6a82881e1)] -> xpath: //li[@class='sn_menu_item  -current']/a[1]]
+2021-05-09 12:18:53  ERROR [WebElements:123 ] : In element can't check text Конвертер валют онлайн 
+2021-05-09 12:18:54   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:18:55   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:22:27   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 12:22:50   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (8748c38a0fde9713d76777c8df13454a)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 12:22:52   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:22:52   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:32:48   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 12:33:01   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (5b9535f9a9f2f00fed79a802b50da194)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 12:33:03   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:33:03   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:34:10   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 12:34:22  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (19124f80320195987343fd50188768c6)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 12:34:23   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:34:23   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:39:38   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 12:39:39   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:39:39   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 12:40:29   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 12:40:30   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 12:40:30   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:08:08   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:08:19  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (f69db7b24f3c47b2f4054f2a7c46a05c)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:08:20   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:08:20   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:09:34   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:09:36  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (d5b194dc2d529a189a629e41d7edab8d)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:09:36   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:09:36   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:11:57   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:11:58  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (0c39836c217c8bd3fa4585bb3be9cb68)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:12:00   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:12:00   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:12:43   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:12:43  ERROR [WebElements:48  ] : Can't work with element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]'
+2021-05-09 13:12:45   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:12:45   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:13:46   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:13:47  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (f8fadd0dabdecac7fe0bff5f6b15def5)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:13:49   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:13:49   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:17:08   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:17:09  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (120d9847ae87ba0a9dfafcd0866a5f08)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:17:11   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:17:11   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:17:38   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:17:49   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 13:17:49   INFO [ConverterPage:48  ] : Banner was closed
+2021-05-09 13:18:02   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (57b09952d8ef269afbeb87355ccf6499)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:18:04   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:18:04   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:31:32   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:31:43  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (5944770a3431fead878e600639ee2863)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:31:44   INFO [WebElements:30  ] : 100 was inputed
+2021-05-09 13:31:44   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:31:44   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:36:16   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:36:27   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 13:36:27   INFO [ConverterPage:58  ] : Banner was closed
+2021-05-09 13:36:40   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (265ea05327d6caa335dd192b57447322)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:36:41   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 13:36:42   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:36:42   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:40:12   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:40:22   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 13:40:22   INFO [ConverterPage:58  ] : Banner was closed
+2021-05-09 13:40:35   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (deafb6e4433c59e9c2512214acb804cc)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:40:37   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:40:37   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:40:48   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:41:00  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (b715e2d48b753558e41738e23c449f52)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:41:00   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 13:41:01   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:41:01   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:42:13  ERROR [WebElements:32  ] : Can't work with element 1
+2021-05-09 13:42:56   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:43:07   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 13:43:07   INFO [ConverterPage:58  ] : Banner was closed
+2021-05-09 13:43:19   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (c64db34bb1dce1e4b0a08761313211c4)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:43:20   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 13:43:21   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:43:21   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:44:32   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:44:43  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (8b7c52934c64312bda6642cfbd5d81d1)] -> xpath: //div[@class='sn_menu_set sn_menu_set-main']/ul[1]/li[5]/a[1]]
+2021-05-09 13:44:44   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:44:44   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:46:49   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:47:00   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 13:47:00   INFO [ConverterPage:59  ] : Banner was closed
+2021-05-09 13:47:14   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (a33f064c0994f79620a9f96293868d70)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 13:47:14   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 13:47:15   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:47:15   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 13:49:29   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 13:49:44   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (b211deaf1a6d5d05237544f5a7a06f9a)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 13:49:44   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 13:49:45   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 13:49:45   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 14:10:19   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 14:10:30   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 14:10:30   INFO [ConverterPage:62  ] : Banner was closed
+2021-05-09 14:10:40   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (d95b35915c94c6bc33f5ef1364c1eddb)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 14:10:40   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 14:10:41   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 14:10:41   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 14:18:53   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 14:19:03   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 14:19:03   INFO [ConverterPage:62  ] : Banner was closed
+2021-05-09 14:19:16   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (6f3e1860bedf9f25f0e9ae2ed6f49904)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 14:19:16   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 14:19:18   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 14:19:18   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 14:22:13   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 14:22:25  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (22123d6a6254f63f7b237dd02033ec4a)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 14:22:25   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 14:22:25   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 14:23:35   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 14:23:47  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (10141fee89f7915c30fb01f9cd7ae369)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 14:23:47   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 14:23:47   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 14:27:05   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 14:27:16  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (76195f022155f47ce872b7a5305fc7ca)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 14:27:17   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 14:27:17   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 14:28:13   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 14:28:24  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (eb8881ebae9c0685911165e9212d323d)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 14:28:25   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 14:28:25   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:13:50   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 15:14:01  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (423060762eb301cdbf866b66b02c1dfd)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 15:14:02   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:14:02   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:16:37   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 15:16:48   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 15:16:48   INFO [ConverterPage:65  ] : Banner was closed
+2021-05-09 15:16:58   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:16:59   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:16:59   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:18:07   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 15:18:18   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 15:18:18   INFO [ConverterPage:65  ] : Banner was closed
+2021-05-09 15:18:28   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:18:29   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:18:29   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:22:20   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 15:22:30   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 15:22:30   INFO [ConverterPage:65  ] : Banner was closed
+2021-05-09 15:22:41   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:22:42   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:22:42   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:37:19   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 15:37:30   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:37:30   INFO [WebElements:92  ] : DropDown By Value was selected EUR
+2021-05-09 15:37:31   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:37:31   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:39:21   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 15:39:32   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //div[@class=' outer']'
+2021-05-09 15:39:32   INFO [ConverterPage:68  ] : Banner was closed
+2021-05-09 15:39:46   INFO [WebElements:46  ] : Element was clicked [[ChromeDriver: chrome on MAC (0161772b352ae33c889ac475f589d6b1)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 15:39:46   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:39:46   INFO [WebElements:92  ] : DropDown By Value was selected EUR
+2021-05-09 15:39:46   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:39:48   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:39:48   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:50:40   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/
+2021-05-09 15:50:51  ERROR [WebElements:48  ] : Can't work with element [[ChromeDriver: chrome on MAC (86d60724d6df8457a59f8b664f7311c9)] -> xpath: //body/div[3]/div[2]/div[1]/div[1]/ul[1]/li[5]/a[1]]
+2021-05-09 15:50:51   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:50:52   INFO [WebElements:92  ] : DropDown By Value was selected EUR
+2021-05-09 15:50:52   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:50:52   INFO [WebElements:92  ] : DropDown By Value was selected USD
+2021-05-09 15:50:53   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:50:53   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:52:29   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 15:52:39   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:52:39   INFO [WebElements:92  ] : DropDown By Value was selected EUR
+2021-05-09 15:52:39   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:52:40   INFO [WebElements:92  ] : DropDown By Value was selected USD
+2021-05-09 15:52:40   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:52:40   INFO [ HomeWork7:84  ] : Clear cookies
+2021-05-09 15:58:02   INFO [ConverterPage:29  ] : Page was opened: https://finance.i.ua/converter/
+2021-05-09 15:58:22   INFO [WebElements:46  ] : Element was clicked Proxy element for: DefaultElementLocator 'By.xpath: //img[@src='images/close.png']'
+2021-05-09 15:58:22   INFO [ConverterPage:55  ] : Banner was closed (image)
+2021-05-09 15:58:22   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:58:23   INFO [WebElements:92  ] : DropDown By Value was selected EUR
+2021-05-09 15:58:23   INFO [WebElements:30  ] : 1 was inputed
+2021-05-09 15:58:23   INFO [WebElements:92  ] : DropDown By Value was selected USD
+2021-05-09 15:58:24   INFO [     Utils:30  ] : Screenshot: /Users/alexandrba/IdeaProjects/QA_Auto_Home_Work/resources/screenshot/HomeWork/HomeWork7.png
+2021-05-09 15:58:24   INFO [ HomeWork7:84  ] : Clear cookies
