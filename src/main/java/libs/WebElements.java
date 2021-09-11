@@ -27,7 +27,7 @@ public class WebElements {
         try {
             element.clear();
             element.sendKeys(text);
-            logger.info(text + " was inputed");
+            logger.info(text + " was entered");
         } catch (Exception e){
             logger.error("Can't work with element " + text);
             Assert.fail("Can't work with element " + text);

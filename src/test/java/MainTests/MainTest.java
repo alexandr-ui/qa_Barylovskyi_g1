@@ -1,9 +1,14 @@
 package MainTests;
 
 import com.github.javafaker.Faker;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
+import libs.CustomListener;
 import libs.Utils;
 import org.apache.log4j.Logger;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -16,8 +21,8 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 
-
-public class MainTest {
+@Listeners({CustomListener.class})
+public class  MainTest {
     public WebDriver webDriver;
     public RegistrationPage registrationPage;
     public ContactUsPage contactUsPage;
@@ -33,8 +38,8 @@ public class MainTest {
 
     //анотация @Parameters в которой указываем browser, который берем из параметров в testng.xml
     @Parameters("browser")
-
     @BeforeClass(alwaysRun = true)
+    @Step("Set up browser options  {browser}")
     public void setUp(@Optional("chrome") String browser){
         //Setup browser
         if (browser.toLowerCase().equals("chrome")) {
@@ -74,16 +79,22 @@ public class MainTest {
 //        }
     }
 
-
+    @Step("Tear down browser options and testContext {testContext}")
     @AfterClass
-    public void tearDown(ITestContext testContext){
+    public void tearDown(ITestContext git ){
         if (!(webDriver == null)) {
+            screenshot();
             utils.screenShot(pathToScreenShot, webDriver);
             webDriver.manage().deleteAllCookies();
             logger.info("Clear cookies");
             webDriver.quit();
             logger.info("Close browser");
         }
+    }
+
+    @Attachment(value = "screenshot", type = "image/png")
+    public byte[] screenshot() {
+        return ((TakesScreenshot)webDriver).getScreenshotAs(OutputType.BYTES);
     }
 
 }

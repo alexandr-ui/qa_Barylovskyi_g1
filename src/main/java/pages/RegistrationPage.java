@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import model.Account;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -89,14 +90,17 @@ public class RegistrationPage extends MainPage{
     /**
      * Method submit button
      * */
+    @Step("Submit button create")
     public void submitButtonCreate(){
         webElements.clickOnElement(submitButtonCreate);
     }
 
+    @Step("Input form account}")
     public void inputFormAccount(){
         webElements.clickOnElement(formAccount);
     }
 
+    @Step("Select gender {gender}")
     public void selectGender(String gender) {
         if (gender.equals("Mr.")) {
             webElements.clickRadioButton(genderMr, gender);
@@ -105,105 +109,113 @@ public class RegistrationPage extends MainPage{
         }
     }
 
+    @Step("Input customer first name {firstName}")
     public void inputCustomerFirstName(String firstName){
         webElements.inputText(customerFirstNameInput, firstName);
     }
 
+    @Step("Input customer lst name {lastName}")
     public void inputCustomerLastName(String lastName){
         webElements.inputText(customerLastNameInput, lastName);
     }
 
+    @Step("Input email {email}")
     public void inputEmail(String email){
         webElements.inputText(emailInput, email);
     }
 
+    @Step("Input password {password}")
     public void inputPassword(String password) {
         webElements.inputText(passwordInput, password);
     }
 
+    @Step("Select birthday {day}")
     public void selectBirthDay(String day) {
         webElements.selectTextInDropDownByValue(dayDropDown, day);
     }
 
+    @Step("Select birth month {month}")
     public void selectBirthMonth(String month) {
         webElements.selectTextInDropDownByValue(monthDropDown, month);
     }
 
+    @Step("Select birth year {year}")
     public void selectBirthYear(String year) {
         webElements.selectTextInDropDownByValue(yearDropDown, year);
     }
 
+    @Step("Click checkbox newsletter")
     public void clickCheckboxNewsLetter() {
         webElements.clickOnElement(checkboxNewsLetter);
     }
 
+    @Step("Click checkbox news option")
     public void clickCheckboxNewsOption() {
         webElements.clickOnElement(checkboxNewsOptin);
     }
 
+    @Step("Input first name {firstName}")
     public void inputFirstName(String firstName) {
         webElements.inputText(firstNameInput, firstName);
     }
 
+    @Step("Input lst name {lastName}")
     public void inputLastName(String lastName) {
         webElements.inputText(lastNameInput, lastName);
     }
 
+    @Step("Input company {company}")
     public void inputCompany(String company) {
         webElements.inputText(companyName, company);
     }
 
+    @Step("input Address by default {address}")
     public void inputAddressByDefault(String address) {
         webElements.inputText(addressByDefault, address);
     }
 
+    @Step("Input address line {address}")
     public void inputAddressLine(String address) {
         webElements.inputText(addressLine, address);
     }
 
-    public void inputStreet(String street){
-        webElements.inputText(addressByDefault, street);
-    }
-
+    @Step("Input City {city}")
     public void inputCity(String city) {
         webElements.inputText(cityInput, city);
     }
 
+    @Step("Input state {state}")
     public void selectState(String value){
         webElements.selectTextInDropDownByValue(selectStateByValue, value);
     }
 
+    @Step("Input postcode {code}")
     public void inputPostCode(String code) {
         webElements.inputText(postCodeInput, code);
     }
 
+    @Step("Select country {value}")
     public void selectCountry(String value){
-//        try{
-//            Select country = new Select(selectCountryByValue);
-//            country.selectByValue("21");
-//            logger.info("Country 21 is selected");
-//        } catch(Exception e){
-//            logger.error("Country can't be selected");
-//        }
         webElements.selectTextInDropDownByValue(selectCountryByValue, value);
     }
 
+    @Step("Input phone number {number}")
     public void inputPhoneNumber(String number) {
         webElements.inputText(phoneNumberInput, number);
     }
 
+    @Step("Input alias {alias}")
     public void inputAlias(String alias) {
         webElements.inputText(aliasInput, alias);
     }
 
+    @Step("Click Submit account")
     public void clickSubmitAccount() {
         webElements.clickOnElement(submitAccount);
     }
 
-    public void isDisplayedTextByXpath(String text) {
-        webElements.isElementPresent(text);
-    }
 
+    @Step ("Registration user")
     public void registrationUser(Account account) {
         selectGender(account.getGender());
         inputCustomerFirstName(account.getFirstCustomerName());

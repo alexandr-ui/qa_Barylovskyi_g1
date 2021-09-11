@@ -12,7 +12,7 @@
     </test>
 
     <test name="ChromeTest2" verbose="1" parallel="true">
-        <parameter name="browserName" value="chrome">
+        <parameter name="browserName" value="firefox">
         <classes>
             <class name="RegistrationTests.RegistrationTest"/>
         </classes>
