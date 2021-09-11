@@ -3,3 +3,4 @@ build/*
 target/
 *log.
 *.jar
+.allure
