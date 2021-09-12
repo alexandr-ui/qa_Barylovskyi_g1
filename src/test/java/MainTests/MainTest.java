@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
 import pages.*;
@@ -37,8 +38,8 @@ public class  MainTest {
     public MainTest() {}
 
     //анотация @Parameters в которой указываем browser, который берем из параметров в testng.xml
-    @Parameters("browser")
     @BeforeClass(alwaysRun = true)
+    @Parameters("browser")
     @Step("Set up browser options  {browser}")
     public void setUp(@Optional("chrome") String browser){
         //Setup browser
@@ -70,13 +71,13 @@ public class  MainTest {
                 this.getClass().getSimpleName() + ".png";
 
 
-//        try{
-//            webDriver.get("http://automationpractice.com");
-//            logger.info("Open URL - http://automationpractice.com");
-//        } catch(Exception e){
-//            logger.error("Can't open browser");
-//            Assert.fail("Can't open browser");
-//        }
+        try{
+            webDriver.get("http://automationpractice.com");
+            logger.info("Open URL - http://automationpractice.com");
+        } catch(Exception e){
+            logger.error("Can't open browser");
+            Assert.fail("Can't open browser");
+        }
     }
 
     @Step("Tear down browser options and testContext {testContext}")

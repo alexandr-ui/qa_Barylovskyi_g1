@@ -12,22 +12,22 @@ import org.testng.annotations.Test;
 
 public class RegistrationTest extends MainTest {
 
-    @BeforeMethod
-    public void SetUpLink() {
-        try{
-            webDriver.get("http://automationpractice.com");
-            logger.info("Open URL - http://automationpractice.com");
-        } catch(Exception e){
-            logger.error("Can't open browser");
-            Assert.fail("Can't open browser");
-        }
-    }
-
-    @AfterMethod
-    public void ClearCookies() {
-        webDriver.manage().deleteAllCookies();
-        logger.info("Clear cookies");
-    }
+//    @BeforeMethod
+//    public void SetUpLink() {
+//        try{
+//            webDriver.get("http://automationpractice.com");
+//            logger.info("Open URL - http://automationpractice.com");
+//        } catch(Exception e){
+//            logger.error("Can't open browser");
+//            Assert.fail("Can't open browser");
+//        }
+//    }
+//
+//    @AfterMethod
+//    public void ClearCookies() {
+//        webDriver.manage().deleteAllCookies();
+//        logger.info("Clear cookies");
+//    }
 
 //    @Epic(value = "Registration")
 //    @Story(value = "User can register for method 1")
