@@ -9,6 +9,7 @@ import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
@@ -45,16 +46,33 @@ public class BaseTest {
 
     @BeforeClass
     public void setUp() {
-        WebDriverManager.chromedriver().browserVersion("93").setup();
-        Configuration.browser = "chrome";
-        Configuration.timeout = 8000;
-        baseUrl = "http://automationpractice.com/";
-        Configuration.screenshots = true;
-        Configuration.savePageSource = true;
-        Configuration.reopenBrowserOnFail = true;
-        ScreenShooter.captureSuccessfulTests = true;
-        setUpBrowser();
-        Selenide.open(baseUrl);
+        String RUN_TYPE = "remote";
+        switch(RUN_TYPE) {
+            case ("local"):
+                WebDriverManager.chromedriver().browserVersion("93").setup();
+                Configuration.browser = "chrome";
+                Configuration.timeout = 8000;
+                baseUrl = "http://automationpractice.com/";
+                Configuration.screenshots = true;
+                Configuration.savePageSource = true;
+                Configuration.reopenBrowserOnFail = true;
+                ScreenShooter.captureSuccessfulTests = true;
+                setUpBrowser();
+                Selenide.open(baseUrl);
+                break;
+            case ("remote"):
+                Configuration.remote = "http://localhost:4444/wd/hub";
+                Configuration.browserSize = "1920x1080";
+                DesiredCapabilities capabilities = new DesiredCapabilities();
+                capabilities.setCapability("browserName", "chrome");
+                capabilities.setCapability("browserVersion", "94.0");
+                capabilities.setCapability("platform", "LINUX");
+                capabilities.setCapability("enableVNC", true);
+                capabilities.setCapability("enablelog", true);
+                Selenide.open(baseUrl);
+                break;
+        }
+//        Configuration.browser = SelenoidWebDriverProvider.class.getName();
     }
 
     @AfterClass
