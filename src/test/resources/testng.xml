@@ -7,14 +7,16 @@
         <parameter name="browserName" value="chrome"/>
         <classes>
             <class name="SelenideTests.RegistrationTest"/>
+<!--            <class name="SelenideTests.GoogleTestWithSelenide"/>-->
         </classes>
     </test>
 
-    <test name="FirefoxTest" verbose="1" parallel="true">
-        <parameter name="browserName" value="chrome"/>
-        <classes>
-            <class name="SelenideTests.RegistrationTest"/>
-        </classes>
-    </test>
+<!--    <test name="ChromeTest2" verbose="1" parallel="true">-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="SelenideTests.RegistrationTest"/>-->
+<!--            <class name="SelenideTests.GoogleTestWithSelenide"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 </suite>

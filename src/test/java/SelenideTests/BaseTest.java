@@ -49,7 +49,7 @@ public class BaseTest {
         String RUN_TYPE = "remote";
         switch(RUN_TYPE) {
             case ("local"):
-                WebDriverManager.chromedriver().browserVersion("93").setup();
+                WebDriverManager.chromedriver().browserVersion("94").setup();
                 Configuration.browser = "chrome";
                 Configuration.timeout = 8000;
                 baseUrl = "http://automationpractice.com/";
@@ -68,8 +68,10 @@ public class BaseTest {
                 capabilities.setCapability("browserVersion", "94.0");
                 capabilities.setCapability("platform", "LINUX");
                 capabilities.setCapability("enableVNC", true);
-                capabilities.setCapability("enablelog", true);
-                Selenide.open(baseUrl);
+                capabilities.setCapability("enableVideo", true);
+                capabilities.setCapability("enableLog", true);
+                Configuration.browserCapabilities = capabilities;
+                Selenide.open("http://automationpractice.com/");
                 break;
         }
 //        Configuration.browser = SelenoidWebDriverProvider.class.getName();
