@@ -1,14 +1,16 @@
 package SelenideTests;
 
-import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.testng.ScreenShooter;
 import com.codeborne.selenide.testng.TextReport;
+import com.codeborne.selenide.testng.annotations.Report;
 import dataproviders.RegistrationPageDataProvider;
 import model.Account;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pagesSelenide.SignInPage;
 
+@Listeners({ScreenShooter.class, TextReport.class})
+@Report
 public class RegistrationTest extends BaseTest{
 
     @Test(dataProvider = "registerNewUser", dataProviderClass = RegistrationPageDataProvider.class)

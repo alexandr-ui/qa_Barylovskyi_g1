@@ -1,6 +1,5 @@
 package SelenideTests;
 
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverProvider;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
@@ -9,8 +8,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URI;
-
-import static com.codeborne.selenide.Configuration.baseUrl;
 
 public class SelenoidWebDriverProvider implements WebDriverProvider {
 
