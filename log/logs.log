@@ -3069,3 +3069,14 @@
 2021-12-09 20:14:40   INFO [RegistrationTest:90  ] : Clear cookies
 2021-12-09 20:14:40   INFO [RegistrationTest:92  ] : Close browser
 2021-12-09 20:14:40   INFO [RegistrationTest:92  ] : Close browser
+2021-11-10 18:34:37   INFO [  ApiTests:24  ] : 
+io.restassured.internal.RestAssuredResponseImpl@66d25ba9
+2021-11-10 18:46:21   INFO [  ApiTests:24  ] : 
+{
+    "people": "https://swapi.dev/api/people/",
+    "planets": "https://swapi.dev/api/planets/",
+    "films": "https://swapi.dev/api/films/",
+    "species": "https://swapi.dev/api/species/",
+    "vehicles": "https://swapi.dev/api/vehicles/",
+    "starships": "https://swapi.dev/api/starships/"
+}
