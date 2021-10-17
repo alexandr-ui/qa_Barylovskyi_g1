@@ -22,7 +22,8 @@ public class HumanTests extends TestBase{
                 .shouldHave(contentType("application/json"))
                 .shouldHave(body("https://swapi.dev/api/planets/1/", new String[]{"https://swapi.dev/api/films/1/",
                         "https://swapi.dev/api/films/2/",
-                        "https://swapi.dev/api/films/3/"}));
+                        "https://swapi.dev/api/films/3/"}))
+                .shouldHave(schema("people1-schema.json"));
     }
 
 //    @Test
