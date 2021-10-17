@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class ApiTests {
@@ -51,7 +52,10 @@ public class ApiTests {
                 .then().statusCode(200)
                 .and()
                 .assertThat()
-                .body("name", equalTo("Luke Skywalker"));
+                .body("name", equalTo("Luke Skywalker"))
+                .and()
+                .assertThat()
+                .body(matchesJsonSchemaInClasspath("people1-schema.json"));
     }
 
     @Test
