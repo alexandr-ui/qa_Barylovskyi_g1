@@ -13,4 +13,8 @@ public class Conditions {
     public static BodyCondition body(String homeworld, String[] films) {
         return new BodyCondition(homeworld, films);
     }
+
+    public static SchemaCondition schema(String schema) {
+        return new SchemaCondition(schema);
+    }
 }

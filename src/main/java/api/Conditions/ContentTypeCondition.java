@@ -11,4 +11,9 @@ public class ContentTypeCondition implements Condition{
     public void check(ValidatableResponse response) {
         response.contentType(contentType);
     }
+
+    @Override
+    public String toString() {
+        return "content type is " + contentType;
+    }
 }
