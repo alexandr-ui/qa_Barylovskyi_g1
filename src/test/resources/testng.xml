@@ -6,7 +6,7 @@
     <test name="ChromeTest" verbose="1" parallel="true">
         <parameter name="browserName" value="chrome"/>
         <classes>
-            <class name="SelenideTests.RegistrationTest"/>
+            <class name="ApiTests.ApiTests"/>
 <!--            <class name="SelenideTests.GoogleTestWithSelenide"/>-->
         </classes>
     </test>
