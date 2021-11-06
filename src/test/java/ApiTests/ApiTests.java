@@ -1,10 +1,15 @@
 package ApiTests;
 
+import io.qameta.allure.Step;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.apache.log4j.Logger;
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
@@ -18,6 +23,41 @@ public class ApiTests {
     private final String endpoint = "https://swapi.dev/api/";
     private final String endpointPeople = "https://swapi.dev/api/people/1";
     private final String endpointPlanets = "https://swapi.dev/api/planets/1";
+
+
+    @Test
+    public static void getResponseBody(){
+
+        given().queryParam("CUSTOMER_ID","68195")
+                .queryParam("PASSWORD","1234!")
+                .queryParam("Account_No","1")
+                .when().get("http://demo.guru99.com/V4/sinkministatement.php").then().log()
+                .body();
+    }
+
+    @Test
+    public void testPostBin() {
+//        Map<String, Object> jsonAsMap = new HashMap<>();
+//        jsonAsMap.put("firstName", "John");
+//        jsonAsMap.put("lastName", "Doe");
+
+        JSONObject request = new JSONObject();
+        request.put("firstName", "John");
+        request.put("lastName", "Doe");
+
+
+        Response list = given()
+                //.body(jsonAsMap)
+                .body(request)
+                .contentType("application/json")
+                .when()
+                .post("https://httpbin.org/post")
+                .then()
+                .assertThat().statusCode(200)
+                .body("data", equalTo("{\"firstName\":\"John\",\"lastName\":\"Doe\"}"))
+                .extract().response().prettyPeek();
+
+    }
 
     @Test
     public void testAllEndpoints() {
