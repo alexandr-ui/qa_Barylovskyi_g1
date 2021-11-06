@@ -12,7 +12,15 @@ import static api.Conditions.Conditions.*;
 
 public class HumanTests extends TestBase{
 
-    public Human usHuman;
+//    public Human usHuman = new Human("alex", "188", "88", "brown", "white", "brown", "1991", "mail", "Earth");
+//
+//    @Test
+//    void testPostUserLukeSkywalker() {
+//        peopleApiService
+//                .postPeople(usHuman)
+//                .shouldHave(statusCode(200));
+//    }
+
 
     @Test
     void testGetUserLukeSkywalker() {
@@ -26,13 +34,6 @@ public class HumanTests extends TestBase{
                 .shouldHave(schema("people1-schema.json"));
     }
 
-//    @Test
-//    void testPostUserLukeSkywalker() {
-//        peopleApiService
-//                .postPeople(usHuman)
-//                .shouldHave(statusCode(200));
-//    }
-
     @Test
     void testGetUserLukeSkywalker_1() {
         AssertableResponse r = peopleApiService.getPeople();
@@ -43,4 +44,6 @@ public class HumanTests extends TestBase{
         List<Map> human = peopleApiService.getPeople()
                 .response.extract().body().jsonPath().param("name", "Luke Skywalker").get("name.findAll()");
     }
+
+
 }
